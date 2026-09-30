@@ -1,0 +1,25 @@
+services:
+  # 1. FastAPI Backend Service
+  - type: web
+    name: ntro-thermal-api
+    env: python
+    region: singapore
+    plan: free
+    rootDir: apps/thermal-api
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.12
+
+  # 2. React Vite Frontend Static Site
+  - type: static
+    name: ntro-thermal-dashboard
+    region: singapore
+    rootDir: apps/web-dashboard
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

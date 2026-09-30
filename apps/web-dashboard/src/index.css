@@ -1,0 +1,229 @@
+/* Typography & Base Theme */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  background-color: #0f172a;
+  color: #f1f5f9;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Monospace font utility for telemetry, metrics, coordinates */
+.font-mono {
+  font-family: 'JetBrains Mono', 'Roboto Mono', monospace !important;
+}
+
+/* Ensure Leaflet container spans full layout with tactical monospace telemetry font */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #0f172a;
+  font-family: 'JetBrains Mono', 'Roboto Mono', monospace !important;
+}
+
+/* Custom Map City & Tile Label Layer Overrides */
+.leaflet-tile-pane .leaflet-layer:nth-child(2) {
+  filter: contrast(120%) brightness(95%);
+}
+
+.tactical-city-label {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  color: #e2e8f0;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
+  text-transform: uppercase;
+}
+
+/* Tactical Glassmorphism Styles with grounded Slate borders */
+.tactical-panel {
+  background: rgba(15, 23, 42, 0.90);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(148, 163, 184, 0.15);
+  color: #f8fafc;
+  font-family: 'Inter', -apple-system, sans-serif;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+.osm-tactical-label {
+  background: rgba(10, 15, 29, 0.92) !important;
+  border: 1px solid #38bdf8 !important;
+  color: #f8fafc !important;
+  border-radius: 4px !important;
+  font-size: 11px !important;
+  padding: 4px 8px !important;
+  box-shadow: 0 0 12px rgba(56, 189, 248, 0.35);
+  pointer-events: none !important;
+  line-height: 1.35 !important;
+}
+
+.osm-tactical-label:before {
+  border-top-color: rgba(10, 15, 29, 0.92) !important;
+}
+
+@keyframes critical-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 14px rgba(239, 68, 68, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(239, 68, 68, 0);
+  }
+}
+
+.pulse-critical {
+  animation: critical-pulse 1.8s infinite;
+}
+
+@keyframes harmful-glow {
+  0% {
+    box-shadow: 0 0 4px rgba(249, 115, 22, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(249, 115, 22, 0.8);
+  }
+  100% {
+    box-shadow: 0 0 4px rgba(249, 115, 22, 0.5);
+  }
+}
+
+.glow-harmful {
+  animation: harmful-glow 2s infinite ease-in-out;
+}
+
+/* Custom Tooltip Styling */
+.facility-tooltip {
+  background: rgba(15, 23, 42, 0.95) !important;
+  color: #f8fafc !important;
+  border: 1px solid #00e5ff !important;
+  border-radius: 6px !important;
+  padding: 6px 10px !important;
+  font-size: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+}
+
+.leaflet-tooltip-top:before {
+  border-top-color: #00e5ff !important;
+}
+
+/* Custom Popup Styling */
+.leaflet-popup-content-wrapper {
+  background: rgba(15, 23, 42, 0.96) !important;
+  color: #f8fafc !important;
+  border-radius: 8px !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid rgba(56, 189, 248, 0.35) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(15, 23, 42, 0.96) !important;
+}
+
+/* Custom scrollbars for side panels */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(56, 189, 248, 0.3);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(56, 189, 248, 0.6);
+}
+
+/* Glassmorphism Tactical Overlay Modal */
+.tactical-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(10, 15, 29, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  animation: modal-fade-in 0.25s ease-out;
+}
+
+.tactical-modal-content {
+  background: rgba(15, 23, 42, 0.95);
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 12px;
+  max-width: 900px;
+  width: 100%;
+  max-height: 85vh;
+  overflow-y: auto;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 229, 255, 0.15);
+  padding: 24px;
+  color: #f8fafc;
+  animation: modal-scale-in 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+/* Tactical Toast Notification */
+.tactical-toast {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 10000;
+  background: rgba(15, 23, 42, 0.96);
+  border: 1px solid #10b981;
+  color: #f8fafc;
+  padding: 12px 20px;
+  border-radius: 8px;
+  box-shadow: 0 8px 30px rgba(16, 185, 129, 0.35);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 13px;
+  animation: toast-slide 0.3s ease-out;
+}
+
+@keyframes toast-slide {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+

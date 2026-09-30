@@ -1,0 +1,2557 @@
+{
+  "type": "FeatureCollection",
+  "metadata": {
+    "count": 134,
+    "description": "Comprehensive All-India Strategic Industrial, Power, Steel, Refinery & Heavy Heat Facilities",
+    "updated_at": "2026-09-30T19:50:00Z",
+    "source": "NTRO All-India Industrial Intelligence Database"
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.67,
+          24.104
+        ]
+      },
+      "properties": {
+        "name": "NTPC Vindhyachal Super Thermal Power Station (4,760 MW)",
+        "facility_name": "NTPC Vindhyachal Super Thermal Power Station (4,760 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Madhya Pradesh",
+        "osm_id": 910000,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.708,
+          24.101
+        ]
+      },
+      "properties": {
+        "name": "NTPC Singrauli Super Thermal Power Station (2,000 MW)",
+        "facility_name": "NTPC Singrauli Super Thermal Power Station (2,000 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Uttar Pradesh",
+        "osm_id": 910001,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.793,
+          24.027
+        ]
+      },
+      "properties": {
+        "name": "NTPC Rihand Super Thermal Power Station (3,000 MW)",
+        "facility_name": "NTPC Rihand Super Thermal Power Station (3,000 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Uttar Pradesh",
+        "osm_id": 910002,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.698,
+          22.385
+        ]
+      },
+      "properties": {
+        "name": "NTPC Korba Super Thermal Power Plant (2,600 MW)",
+        "facility_name": "NTPC Korba Super Thermal Power Plant (2,600 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Chhattisgarh",
+        "osm_id": 910003,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.285,
+          22.133
+        ]
+      },
+      "properties": {
+        "name": "NTPC Sipat Super Thermal Power Station (2,980 MW)",
+        "facility_name": "NTPC Sipat Super Thermal Power Station (2,980 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Chhattisgarh",
+        "osm_id": 910004,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.376,
+          21.758
+        ]
+      },
+      "properties": {
+        "name": "NTPC Lara Super Thermal Power Project (1,600 MW)",
+        "facility_name": "NTPC Lara Super Thermal Power Project (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Chhattisgarh",
+        "osm_id": 910005,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.453,
+          18.756
+        ]
+      },
+      "properties": {
+        "name": "NTPC Ramagundam Super Thermal Power Station (2,600 MW)",
+        "facility_name": "NTPC Ramagundam Super Thermal Power Station (2,600 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Telangana",
+        "osm_id": 910006,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.087,
+          17.603
+        ]
+      },
+      "properties": {
+        "name": "NTPC Simhadri Super Thermal Power Plant (2,000 MW)",
+        "facility_name": "NTPC Simhadri Super Thermal Power Plant (2,000 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Andhra Pradesh",
+        "osm_id": 910007,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.879,
+          16.711
+        ]
+      },
+      "properties": {
+        "name": "NTPC Kudgi Super Thermal Power Station (2,400 MW)",
+        "facility_name": "NTPC Kudgi Super Thermal Power Station (2,400 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Karnataka",
+        "osm_id": 910008,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.08,
+          21.096
+        ]
+      },
+      "properties": {
+        "name": "NTPC Talcher Super Thermal Power Station Kaniha (3,000 MW)",
+        "facility_name": "NTPC Talcher Super Thermal Power Station Kaniha (3,000 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Odisha",
+        "osm_id": 910009,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.847,
+          21.905
+        ]
+      },
+      "properties": {
+        "name": "NTPC Darlipali Super Thermal Power Station (1,600 MW)",
+        "facility_name": "NTPC Darlipali Super Thermal Power Station (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Odisha",
+        "osm_id": 910010,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.733,
+          25.485
+        ]
+      },
+      "properties": {
+        "name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+        "facility_name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Bihar",
+        "osm_id": 910011,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.265,
+          25.263
+        ]
+      },
+      "properties": {
+        "name": "NTPC Kahalgaon Super Thermal Power Station (2,340 MW)",
+        "facility_name": "NTPC Kahalgaon Super Thermal Power Station (2,340 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Bihar",
+        "osm_id": 910012,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.904,
+          24.778
+        ]
+      },
+      "properties": {
+        "name": "NTPC Farakka Super Thermal Power Station (2,100 MW)",
+        "facility_name": "NTPC Farakka Super Thermal Power Station (2,100 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "West Bengal",
+        "osm_id": 910013,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.397,
+          21.171
+        ]
+      },
+      "properties": {
+        "name": "NTPC Mouda Super Thermal Power Station (2,320 MW)",
+        "facility_name": "NTPC Mouda Super Thermal Power Station (2,320 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Maharashtra",
+        "osm_id": 910014,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.894,
+          17.585
+        ]
+      },
+      "properties": {
+        "name": "NTPC Solapur Super Thermal Power Station (1,320 MW)",
+        "facility_name": "NTPC Solapur Super Thermal Power Station (1,320 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Maharashtra",
+        "osm_id": 910015,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.809,
+          22.888
+        ]
+      },
+      "properties": {
+        "name": "NTPC Gadarwara Super Thermal Power Station (1,600 MW)",
+        "facility_name": "NTPC Gadarwara Super Thermal Power Station (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Madhya Pradesh",
+        "osm_id": 910016,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.845,
+          21.761
+        ]
+      },
+      "properties": {
+        "name": "NTPC Khargone Super Thermal Power Plant (1,320 MW)",
+        "facility_name": "NTPC Khargone Super Thermal Power Plant (1,320 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Madhya Pradesh",
+        "osm_id": 910017,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.546,
+          28.6
+        ]
+      },
+      "properties": {
+        "name": "NTPC Dadri Super Thermal Power Station (1,820 MW)",
+        "facility_name": "NTPC Dadri Super Thermal Power Station (1,820 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Uttar Pradesh",
+        "osm_id": 910018,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.328,
+          25.912
+        ]
+      },
+      "properties": {
+        "name": "NTPC Unchahar Thermal Power Station (1,550 MW)",
+        "facility_name": "NTPC Unchahar Thermal Power Station (1,550 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Uttar Pradesh",
+        "osm_id": 910019,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.597,
+          26.586
+        ]
+      },
+      "properties": {
+        "name": "NTPC Tanda Thermal Power Station (1,760 MW)",
+        "facility_name": "NTPC Tanda Thermal Power Station (1,760 MW)",
+        "category": "Thermal Power",
+        "operator": "NTPC Limited",
+        "state": "Uttar Pradesh",
+        "osm_id": 910020,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.528,
+          22.828
+        ]
+      },
+      "properties": {
+        "name": "Mundra Ultra Mega Thermal Power Complex (4,000 MW)",
+        "facility_name": "Mundra Ultra Mega Thermal Power Complex (4,000 MW)",
+        "category": "Thermal Power",
+        "operator": "Tata Power",
+        "state": "Gujarat",
+        "osm_id": 910021,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.551,
+          22.821
+        ]
+      },
+      "properties": {
+        "name": "Adani Mundra Thermal Power Station (4,620 MW)",
+        "facility_name": "Adani Mundra Thermal Power Station (4,620 MW)",
+        "category": "Thermal Power",
+        "operator": "Adani Power",
+        "state": "Gujarat",
+        "osm_id": 910022,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.628,
+          23.978
+        ]
+      },
+      "properties": {
+        "name": "Sasan Ultra Mega Power Plant (3,960 MW)",
+        "facility_name": "Sasan Ultra Mega Power Plant (3,960 MW)",
+        "category": "Thermal Power",
+        "operator": "Reliance Power",
+        "state": "Madhya Pradesh",
+        "osm_id": 910023,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.289,
+          19.986
+        ]
+      },
+      "properties": {
+        "name": "Chandrapur Super Thermal Power Station (2,920 MW)",
+        "facility_name": "Chandrapur Super Thermal Power Station (2,920 MW)",
+        "category": "Thermal Power",
+        "operator": "Mahagenco",
+        "state": "Maharashtra",
+        "osm_id": 910024,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.097,
+          21.248
+        ]
+      },
+      "properties": {
+        "name": "Koradi Thermal Power Station (2,400 MW)",
+        "facility_name": "Koradi Thermal Power Station (2,400 MW)",
+        "category": "Thermal Power",
+        "operator": "Mahagenco",
+        "state": "Maharashtra",
+        "osm_id": 910025,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.119,
+          21.282
+        ]
+      },
+      "properties": {
+        "name": "Khaparkheda Thermal Power Station (1,340 MW)",
+        "facility_name": "Khaparkheda Thermal Power Station (1,340 MW)",
+        "category": "Thermal Power",
+        "operator": "Mahagenco",
+        "state": "Maharashtra",
+        "osm_id": 910026,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.844,
+          21.048
+        ]
+      },
+      "properties": {
+        "name": "Bhusawal Thermal Power Station (1,420 MW)",
+        "facility_name": "Bhusawal Thermal Power Station (1,420 MW)",
+        "category": "Thermal Power",
+        "operator": "Mahagenco",
+        "state": "Maharashtra",
+        "osm_id": 910027,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.967,
+          21.414
+        ]
+      },
+      "properties": {
+        "name": "Adani Tiroda Thermal Power Station (3,300 MW)",
+        "facility_name": "Adani Tiroda Thermal Power Station (3,300 MW)",
+        "category": "Thermal Power",
+        "operator": "Adani Power",
+        "state": "Maharashtra",
+        "osm_id": 910028,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.718,
+          15.195
+        ]
+      },
+      "properties": {
+        "name": "Bellary Thermal Power Station (1,700 MW)",
+        "facility_name": "Bellary Thermal Power Station (1,700 MW)",
+        "category": "Thermal Power",
+        "operator": "KPCL",
+        "state": "Karnataka",
+        "osm_id": 910029,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.346,
+          16.353
+        ]
+      },
+      "properties": {
+        "name": "Raichur Thermal Power Station (1,720 MW)",
+        "facility_name": "Raichur Thermal Power Station (1,720 MW)",
+        "category": "Thermal Power",
+        "operator": "KPCL",
+        "state": "Karnataka",
+        "osm_id": 910030,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.337,
+          16.297
+        ]
+      },
+      "properties": {
+        "name": "Yermarus Thermal Power Station (1,600 MW)",
+        "facility_name": "Yermarus Thermal Power Station (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "KPCL",
+        "state": "Karnataka",
+        "osm_id": 910031,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.795,
+          13.145
+        ]
+      },
+      "properties": {
+        "name": "Udupi Thermal Power Plant (1,200 MW)",
+        "facility_name": "Udupi Thermal Power Plant (1,200 MW)",
+        "category": "Thermal Power",
+        "operator": "Adani Power",
+        "state": "Karnataka",
+        "osm_id": 910032,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.536,
+          16.598
+        ]
+      },
+      "properties": {
+        "name": "Dr. Narla Tata Rao Thermal Power Station Vijayawada (1,760 MW)",
+        "facility_name": "Dr. Narla Tata Rao Thermal Power Station Vijayawada (1,760 MW)",
+        "category": "Thermal Power",
+        "operator": "APGENCO",
+        "state": "Andhra Pradesh",
+        "osm_id": 910033,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.129,
+          14.331
+        ]
+      },
+      "properties": {
+        "name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+        "facility_name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "APGENCO",
+        "state": "Andhra Pradesh",
+        "osm_id": 910034,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.461,
+          14.711
+        ]
+      },
+      "properties": {
+        "name": "Rayalaseema Thermal Power Station Kadapa (1,650 MW)",
+        "facility_name": "Rayalaseema Thermal Power Station Kadapa (1,650 MW)",
+        "category": "Thermal Power",
+        "operator": "APGENCO",
+        "state": "Andhra Pradesh",
+        "osm_id": 910035,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.687,
+          17.551
+        ]
+      },
+      "properties": {
+        "name": "Kothagudem Thermal Power Station (1,800 MW)",
+        "facility_name": "Kothagudem Thermal Power Station (1,800 MW)",
+        "category": "Thermal Power",
+        "operator": "TSGENCO",
+        "state": "Telangana",
+        "osm_id": 910036,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.793,
+          17.886
+        ]
+      },
+      "properties": {
+        "name": "Bhadradri Thermal Power Station Manuguru (1,080 MW)",
+        "facility_name": "Bhadradri Thermal Power Station Manuguru (1,080 MW)",
+        "category": "Thermal Power",
+        "operator": "TSGENCO",
+        "state": "Telangana",
+        "osm_id": 910037,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.824,
+          18.232
+        ]
+      },
+      "properties": {
+        "name": "Kakatiya Thermal Power Station Warangal (1,100 MW)",
+        "facility_name": "Kakatiya Thermal Power Station Warangal (1,100 MW)",
+        "category": "Thermal Power",
+        "operator": "TSGENCO",
+        "state": "Telangana",
+        "osm_id": 910038,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.489,
+          11.597
+        ]
+      },
+      "properties": {
+        "name": "Neyveli Lignite Thermal Power Station (1,000 MW)",
+        "facility_name": "Neyveli Lignite Thermal Power Station (1,000 MW)",
+        "category": "Thermal Power",
+        "operator": "NLC India",
+        "state": "Tamil Nadu",
+        "osm_id": 910039,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.174,
+          8.761
+        ]
+      },
+      "properties": {
+        "name": "Tuticorin Thermal Power Station (1,050 MW)",
+        "facility_name": "Tuticorin Thermal Power Station (1,050 MW)",
+        "category": "Thermal Power",
+        "operator": "TANGEDCO",
+        "state": "Tamil Nadu",
+        "osm_id": 910040,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.798,
+          11.799
+        ]
+      },
+      "properties": {
+        "name": "Mettur Thermal Power Station (1,440 MW)",
+        "facility_name": "Mettur Thermal Power Station (1,440 MW)",
+        "category": "Thermal Power",
+        "operator": "TANGEDCO",
+        "state": "Tamil Nadu",
+        "osm_id": 910041,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.327,
+          13.25
+        ]
+      },
+      "properties": {
+        "name": "North Chennai Thermal Power Station Ennore (1,830 MW)",
+        "facility_name": "North Chennai Thermal Power Station Ennore (1,830 MW)",
+        "category": "Thermal Power",
+        "operator": "TANGEDCO",
+        "state": "Tamil Nadu",
+        "osm_id": 910042,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.359,
+          22.879
+        ]
+      },
+      "properties": {
+        "name": "Wanakbori Thermal Power Station (2,270 MW)",
+        "facility_name": "Wanakbori Thermal Power Station (2,270 MW)",
+        "category": "Thermal Power",
+        "operator": "GSECL",
+        "state": "Gujarat",
+        "osm_id": 910043,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.585,
+          21.226
+        ]
+      },
+      "properties": {
+        "name": "Ukai Thermal Power Station (1,350 MW)",
+        "facility_name": "Ukai Thermal Power Station (1,350 MW)",
+        "category": "Thermal Power",
+        "operator": "GSECL",
+        "state": "Gujarat",
+        "osm_id": 910044,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.896,
+          29.184
+        ]
+      },
+      "properties": {
+        "name": "Suratgarh Super Thermal Power Plant (2,820 MW)",
+        "facility_name": "Suratgarh Super Thermal Power Plant (2,820 MW)",
+        "category": "Thermal Power",
+        "operator": "RRVUNL",
+        "state": "Rajasthan",
+        "osm_id": 910045,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.808,
+          25.176
+        ]
+      },
+      "properties": {
+        "name": "Kota Super Thermal Power Plant (1,240 MW)",
+        "facility_name": "Kota Super Thermal Power Plant (1,240 MW)",
+        "category": "Thermal Power",
+        "operator": "RRVUNL",
+        "state": "Rajasthan",
+        "osm_id": 910046,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.034,
+          24.622
+        ]
+      },
+      "properties": {
+        "name": "Chhabra Thermal Power Plant (2,320 MW)",
+        "facility_name": "Chhabra Thermal Power Plant (2,320 MW)",
+        "category": "Thermal Power",
+        "operator": "RRVUNL",
+        "state": "Rajasthan",
+        "osm_id": 910047,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.132,
+          23.458
+        ]
+      },
+      "properties": {
+        "name": "Mejia Thermal Power Station (2,340 MW)",
+        "facility_name": "Mejia Thermal Power Station (2,340 MW)",
+        "category": "Thermal Power",
+        "operator": "DVC",
+        "state": "West Bengal",
+        "osm_id": 910048,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.872,
+          22.428
+        ]
+      },
+      "properties": {
+        "name": "Kolaghat Thermal Power Station (1,260 MW)",
+        "facility_name": "Kolaghat Thermal Power Station (1,260 MW)",
+        "category": "Thermal Power",
+        "operator": "WBPDCL",
+        "state": "West Bengal",
+        "osm_id": 910049,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.452,
+          23.829
+        ]
+      },
+      "properties": {
+        "name": "Bakreswar Thermal Power Station (1,050 MW)",
+        "facility_name": "Bakreswar Thermal Power Station (1,050 MW)",
+        "category": "Thermal Power",
+        "operator": "WBPDCL",
+        "state": "West Bengal",
+        "osm_id": 910050,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.096,
+          24.364
+        ]
+      },
+      "properties": {
+        "name": "Sagardighi Thermal Power Station (1,600 MW)",
+        "facility_name": "Sagardighi Thermal Power Station (1,600 MW)",
+        "category": "Thermal Power",
+        "operator": "WBPDCL",
+        "state": "West Bengal",
+        "osm_id": 910051,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.882,
+          23.784
+        ]
+      },
+      "properties": {
+        "name": "Bokaro Thermal Power Station (1,070 MW)",
+        "facility_name": "Bokaro Thermal Power Station (1,070 MW)",
+        "category": "Thermal Power",
+        "operator": "DVC",
+        "state": "Jharkhand",
+        "osm_id": 910052,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.118,
+          23.748
+        ]
+      },
+      "properties": {
+        "name": "Chandrapura Thermal Power Station (890 MW)",
+        "facility_name": "Chandrapura Thermal Power Station (890 MW)",
+        "category": "Thermal Power",
+        "operator": "DVC",
+        "state": "Jharkhand",
+        "osm_id": 910053,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.301,
+          23.518
+        ]
+      },
+      "properties": {
+        "name": "Durgapur Steel Thermal Power Station (1,000 MW)",
+        "facility_name": "Durgapur Steel Thermal Power Station (1,000 MW)",
+        "category": "Thermal Power",
+        "operator": "DVC",
+        "state": "West Bengal",
+        "osm_id": 910054,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.194,
+          22.794
+        ]
+      },
+      "properties": {
+        "name": "Tata Steel Integrated Works Jamshedpur",
+        "facility_name": "Tata Steel Integrated Works Jamshedpur",
+        "category": "Steel",
+        "operator": "Tata Steel",
+        "state": "Jharkhand",
+        "osm_id": 910055,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.012,
+          20.963
+        ]
+      },
+      "properties": {
+        "name": "Tata Steel Kalinganagar Complex",
+        "facility_name": "Tata Steel Kalinganagar Complex",
+        "category": "Steel",
+        "operator": "Tata Steel",
+        "state": "Odisha",
+        "osm_id": 910056,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.401,
+          21.185
+        ]
+      },
+      "properties": {
+        "name": "SAIL Bhilai Steel Plant",
+        "facility_name": "SAIL Bhilai Steel Plant",
+        "category": "Steel",
+        "operator": "SAIL",
+        "state": "Chhattisgarh",
+        "osm_id": 910057,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.87,
+          22.222
+        ]
+      },
+      "properties": {
+        "name": "SAIL Rourkela Steel Plant",
+        "facility_name": "SAIL Rourkela Steel Plant",
+        "category": "Steel",
+        "operator": "SAIL",
+        "state": "Odisha",
+        "osm_id": 910058,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.155,
+          23.669
+        ]
+      },
+      "properties": {
+        "name": "SAIL Bokaro Steel Plant",
+        "facility_name": "SAIL Bokaro Steel Plant",
+        "category": "Steel",
+        "operator": "SAIL",
+        "state": "Jharkhand",
+        "osm_id": 910059,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          87.322,
+          23.551
+        ]
+      },
+      "properties": {
+        "name": "SAIL Durgapur Steel Plant",
+        "facility_name": "SAIL Durgapur Steel Plant",
+        "category": "Steel",
+        "operator": "SAIL",
+        "state": "West Bengal",
+        "osm_id": 910060,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.938,
+          23.668
+        ]
+      },
+      "properties": {
+        "name": "SAIL IISCO Steel Plant Burnpur",
+        "facility_name": "SAIL IISCO Steel Plant Burnpur",
+        "category": "Steel",
+        "operator": "SAIL",
+        "state": "West Bengal",
+        "osm_id": 910061,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.669,
+          15.197
+        ]
+      },
+      "properties": {
+        "name": "JSW Steel Vijayanagar Works Toranagallu",
+        "facility_name": "JSW Steel Vijayanagar Works Toranagallu",
+        "category": "Steel",
+        "operator": "JSW Steel",
+        "state": "Karnataka",
+        "osm_id": 910062,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.024,
+          18.705
+        ]
+      },
+      "properties": {
+        "name": "JSW Steel Dolvi Works",
+        "facility_name": "JSW Steel Dolvi Works",
+        "category": "Steel",
+        "operator": "JSW Steel",
+        "state": "Maharashtra",
+        "osm_id": 910063,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.012,
+          11.758
+        ]
+      },
+      "properties": {
+        "name": "JSW Steel Salem Works",
+        "facility_name": "JSW Steel Salem Works",
+        "category": "Steel",
+        "operator": "JSW Steel",
+        "state": "Tamil Nadu",
+        "osm_id": 910064,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.08,
+          20.84
+        ]
+      },
+      "properties": {
+        "name": "Jindal Steel & Power (JSPL) Angul Complex",
+        "facility_name": "Jindal Steel & Power (JSPL) Angul Complex",
+        "category": "Steel",
+        "operator": "JSPL",
+        "state": "Odisha",
+        "osm_id": 910065,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.411,
+          21.905
+        ]
+      },
+      "properties": {
+        "name": "Jindal Steel & Power (JSPL) Raigarh Plant",
+        "facility_name": "Jindal Steel & Power (JSPL) Raigarh Plant",
+        "category": "Steel",
+        "operator": "JSPL",
+        "state": "Chhattisgarh",
+        "osm_id": 910066,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.18,
+          17.63
+        ]
+      },
+      "properties": {
+        "name": "Rashtriya Ispat Nigam Limited (RINL / Vizag Steel Plant)",
+        "facility_name": "Rashtriya Ispat Nigam Limited (RINL / Vizag Steel Plant)",
+        "category": "Steel",
+        "operator": "RINL",
+        "state": "Andhra Pradesh",
+        "osm_id": 910067,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.671,
+          21.144
+        ]
+      },
+      "properties": {
+        "name": "ArcelorMittal Nippon Steel (AM/NS) Hazira Works",
+        "facility_name": "ArcelorMittal Nippon Steel (AM/NS) Hazira Works",
+        "category": "Steel",
+        "operator": "AM/NS India",
+        "state": "Gujarat",
+        "osm_id": 910068,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.65,
+          21.365
+        ]
+      },
+      "properties": {
+        "name": "Jayaswal Neco Industries Steel Complex Siltara",
+        "facility_name": "Jayaswal Neco Industries Steel Complex Siltara",
+        "category": "Steel",
+        "operator": "Jayaswal Neco",
+        "state": "Chhattisgarh",
+        "osm_id": 910069,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.025,
+          20.97
+        ]
+      },
+      "properties": {
+        "name": "Jindal Stainless Limited Jajpur Works",
+        "facility_name": "Jindal Stainless Limited Jajpur Works",
+        "category": "Steel",
+        "operator": "Jindal Stainless",
+        "state": "Odisha",
+        "osm_id": 910070,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.748,
+          29.148
+        ]
+      },
+      "properties": {
+        "name": "Jindal Stainless Limited Hisar Works",
+        "facility_name": "Jindal Stainless Limited Hisar Works",
+        "category": "Steel",
+        "operator": "Jindal Stainless",
+        "state": "Haryana",
+        "osm_id": 910071,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.441,
+          26.835
+        ]
+      },
+      "properties": {
+        "name": "Gallantt Ispat Gorakhpur Plant",
+        "facility_name": "Gallantt Ispat Gorakhpur Plant",
+        "category": "Steel",
+        "operator": "Gallantt",
+        "state": "Uttar Pradesh",
+        "osm_id": 910072,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.68,
+          21.182
+        ]
+      },
+      "properties": {
+        "name": "Sunflag Iron and Steel Bhandara",
+        "facility_name": "Sunflag Iron and Steel Bhandara",
+        "category": "Steel",
+        "operator": "Sunflag",
+        "state": "Maharashtra",
+        "osm_id": 910073,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.32,
+          23.655
+        ]
+      },
+      "properties": {
+        "name": "Electrosteel Steels (ESL / Vedanta) Bokaro",
+        "facility_name": "Electrosteel Steels (ESL / Vedanta) Bokaro",
+        "category": "Steel",
+        "operator": "Vedanta",
+        "state": "Jharkhand",
+        "osm_id": 910074,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          70.042,
+          22.396
+        ]
+      },
+      "properties": {
+        "name": "Reliance Jamnagar Mega Refinery & Petrochemical Complex",
+        "facility_name": "Reliance Jamnagar Mega Refinery & Petrochemical Complex",
+        "category": "Refinery",
+        "operator": "Reliance Industries",
+        "state": "Gujarat",
+        "osm_id": 910075,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          69.722,
+          22.328
+        ]
+      },
+      "properties": {
+        "name": "Nayara Energy Vadinar Refinery Complex",
+        "facility_name": "Nayara Energy Vadinar Refinery Complex",
+        "category": "Refinery",
+        "operator": "Nayara Energy",
+        "state": "Gujarat",
+        "osm_id": 910076,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.878,
+          29.378
+        ]
+      },
+      "properties": {
+        "name": "IOCL Panipat Mega Refinery & Petrochemical Complex",
+        "facility_name": "IOCL Panipat Mega Refinery & Petrochemical Complex",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Haryana",
+        "osm_id": 910077,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.704,
+          27.314
+        ]
+      },
+      "properties": {
+        "name": "Indian Oil (IOCL) Mathura Refinery Complex",
+        "facility_name": "Indian Oil (IOCL) Mathura Refinery Complex",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Uttar Pradesh",
+        "osm_id": 910078,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.125,
+          22.361
+        ]
+      },
+      "properties": {
+        "name": "IOCL Gujarat Refinery (Koyali, Vadodara)",
+        "facility_name": "IOCL Gujarat Refinery (Koyali, Vadodara)",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Gujarat",
+        "osm_id": 910079,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.974,
+          25.424
+        ]
+      },
+      "properties": {
+        "name": "Indian Oil Barauni Refinery Complex",
+        "facility_name": "Indian Oil Barauni Refinery Complex",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Bihar",
+        "osm_id": 910080,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.082,
+          22.062
+        ]
+      },
+      "properties": {
+        "name": "IOCL Haldia Refinery",
+        "facility_name": "IOCL Haldia Refinery",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "West Bengal",
+        "osm_id": 910081,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          86.645,
+          20.292
+        ]
+      },
+      "properties": {
+        "name": "IOCL Paradip Refinery Complex",
+        "facility_name": "IOCL Paradip Refinery Complex",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Odisha",
+        "osm_id": 910082,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          90.528,
+          26.505
+        ]
+      },
+      "properties": {
+        "name": "IOCL Bongaigaon Refinery",
+        "facility_name": "IOCL Bongaigaon Refinery",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Assam",
+        "osm_id": 910083,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          91.799,
+          26.183
+        ]
+      },
+      "properties": {
+        "name": "IOCL Guwahati Refinery (Noonmati)",
+        "facility_name": "IOCL Guwahati Refinery (Noonmati)",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Assam",
+        "osm_id": 910084,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          95.632,
+          27.382
+        ]
+      },
+      "properties": {
+        "name": "IOCL Digboi Refinery",
+        "facility_name": "IOCL Digboi Refinery",
+        "category": "Refinery",
+        "operator": "Indian Oil Corporation",
+        "state": "Assam",
+        "osm_id": 910085,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.894,
+          19.011
+        ]
+      },
+      "properties": {
+        "name": "BPCL Mumbai Refinery (Mahul)",
+        "facility_name": "BPCL Mumbai Refinery (Mahul)",
+        "category": "Refinery",
+        "operator": "Bharat Petroleum",
+        "state": "Maharashtra",
+        "osm_id": 910086,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.898,
+          19.006
+        ]
+      },
+      "properties": {
+        "name": "HPCL Mumbai Refinery (Mahul)",
+        "facility_name": "HPCL Mumbai Refinery (Mahul)",
+        "category": "Refinery",
+        "operator": "Hindustan Petroleum",
+        "state": "Maharashtra",
+        "osm_id": 910087,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.368,
+          9.967
+        ]
+      },
+      "properties": {
+        "name": "BPCL Kochi Refinery (Ambalamugal)",
+        "facility_name": "BPCL Kochi Refinery (Ambalamugal)",
+        "category": "Refinery",
+        "operator": "Bharat Petroleum",
+        "state": "Kerala",
+        "osm_id": 910088,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.255,
+          17.689
+        ]
+      },
+      "properties": {
+        "name": "HPCL Visakhapatnam Refinery",
+        "facility_name": "HPCL Visakhapatnam Refinery",
+        "category": "Refinery",
+        "operator": "Hindustan Petroleum",
+        "state": "Andhra Pradesh",
+        "osm_id": 910089,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.274,
+          13.167
+        ]
+      },
+      "properties": {
+        "name": "CPCL Manali Refinery (Chennai)",
+        "facility_name": "CPCL Manali Refinery (Chennai)",
+        "category": "Refinery",
+        "operator": "Chennai Petroleum",
+        "state": "Tamil Nadu",
+        "osm_id": 910090,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.836,
+          12.988
+        ]
+      },
+      "properties": {
+        "name": "MRPL Mangalore Refinery and Petrochemicals",
+        "facility_name": "MRPL Mangalore Refinery and Petrochemicals",
+        "category": "Refinery",
+        "operator": "ONGC / MRPL",
+        "state": "Karnataka",
+        "osm_id": 910091,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.018,
+          29.986
+        ]
+      },
+      "properties": {
+        "name": "HMEL Guru Gobind Singh Refinery Bathinda",
+        "facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+        "category": "Refinery",
+        "operator": "HPCL-Mittal Energy",
+        "state": "Punjab",
+        "osm_id": 910092,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.553,
+          21.705
+        ]
+      },
+      "properties": {
+        "name": "ONGC Petro additions Limited (OPaL) Dahej",
+        "facility_name": "ONGC Petro additions Limited (OPaL) Dahej",
+        "category": "Chemical",
+        "operator": "OPaL",
+        "state": "Gujarat",
+        "osm_id": 910093,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.548,
+          26.602
+        ]
+      },
+      "properties": {
+        "name": "GAIL Pata Petrochemical Complex",
+        "facility_name": "GAIL Pata Petrochemical Complex",
+        "category": "Chemical",
+        "operator": "GAIL",
+        "state": "Uttar Pradesh",
+        "osm_id": 910094,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          88.072,
+          22.052
+        ]
+      },
+      "properties": {
+        "name": "Haldia Petrochemicals Complex",
+        "facility_name": "Haldia Petrochemicals Complex",
+        "category": "Chemical",
+        "operator": "Haldia Petrochem",
+        "state": "West Bengal",
+        "osm_id": 910095,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.811,
+          12.932
+        ]
+      },
+      "properties": {
+        "name": "Mangalore Chemicals & Fertilizers (MCF)",
+        "facility_name": "Mangalore Chemicals & Fertilizers (MCF)",
+        "category": "Chemical",
+        "operator": "Adventz",
+        "state": "Karnataka",
+        "osm_id": 910096,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.88,
+          18.708
+        ]
+      },
+      "properties": {
+        "name": "Rashtriya Chemicals & Fertilizers (RCF Thal)",
+        "facility_name": "Rashtriya Chemicals & Fertilizers (RCF Thal)",
+        "category": "Chemical",
+        "operator": "RCF",
+        "state": "Maharashtra",
+        "osm_id": 910097,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.155,
+          25.267
+        ]
+      },
+      "properties": {
+        "name": "Chambal Fertilisers & Chemicals Gadepan",
+        "facility_name": "Chambal Fertilisers & Chemicals Gadepan",
+        "category": "Chemical",
+        "operator": "Chambal Fertilisers",
+        "state": "Rajasthan",
+        "osm_id": 910098,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.147,
+          20.852
+        ]
+      },
+      "properties": {
+        "name": "NALCO Aluminium Smelter Angul",
+        "facility_name": "NALCO Aluminium Smelter Angul",
+        "category": "Steel",
+        "operator": "NALCO",
+        "state": "Odisha",
+        "osm_id": 910099,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          84.032,
+          21.848
+        ]
+      },
+      "properties": {
+        "name": "Vedanta Aluminium Smelter Jharsuguda",
+        "facility_name": "Vedanta Aluminium Smelter Jharsuguda",
+        "category": "Steel",
+        "operator": "Vedanta",
+        "state": "Odisha",
+        "osm_id": 910100,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.034,
+          24.218
+        ]
+      },
+      "properties": {
+        "name": "Hindalco Renukoot Aluminium Smelter",
+        "facility_name": "Hindalco Renukoot Aluminium Smelter",
+        "category": "Steel",
+        "operator": "Hindalco",
+        "state": "Uttar Pradesh",
+        "osm_id": 910101,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.385,
+          24.12
+        ]
+      },
+      "properties": {
+        "name": "Hindalco Mahan Aluminium Smelter Singrauli",
+        "facility_name": "Hindalco Mahan Aluminium Smelter Singrauli",
+        "category": "Steel",
+        "operator": "Hindalco",
+        "state": "Madhya Pradesh",
+        "osm_id": 910102,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          83.874,
+          21.528
+        ]
+      },
+      "properties": {
+        "name": "Hindalco Hirakud Smelter",
+        "facility_name": "Hindalco Hirakud Smelter",
+        "category": "Steel",
+        "operator": "Hindalco",
+        "state": "Odisha",
+        "osm_id": 910103,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          82.748,
+          22.399
+        ]
+      },
+      "properties": {
+        "name": "BALCO Aluminium Smelter Korba",
+        "facility_name": "BALCO Aluminium Smelter Korba",
+        "category": "Steel",
+        "operator": "Vedanta / BALCO",
+        "state": "Chhattisgarh",
+        "osm_id": 910104,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.548,
+          21.712
+        ]
+      },
+      "properties": {
+        "name": "Birla Copper Smelter Complex Dahej",
+        "facility_name": "Birla Copper Smelter Complex Dahej",
+        "category": "Steel",
+        "operator": "Hindalco",
+        "state": "Gujarat",
+        "osm_id": 910105,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.115,
+          8.815
+        ]
+      },
+      "properties": {
+        "name": "Sterlite Copper Complex Thoothukudi",
+        "facility_name": "Sterlite Copper Complex Thoothukudi",
+        "category": "Steel",
+        "operator": "Vedanta",
+        "state": "Tamil Nadu",
+        "osm_id": 910106,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.165,
+          17.185
+        ]
+      },
+      "properties": {
+        "name": "UltraTech Rajashree Cement Malkhed",
+        "facility_name": "UltraTech Rajashree Cement Malkhed",
+        "category": "Other",
+        "operator": "UltraTech Cement",
+        "state": "Karnataka",
+        "osm_id": 910107,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.168,
+          19.782
+        ]
+      },
+      "properties": {
+        "name": "UltraTech Awarpur Cement Works Chandrapur",
+        "facility_name": "UltraTech Awarpur Cement Works Chandrapur",
+        "category": "Other",
+        "operator": "UltraTech Cement",
+        "state": "Maharashtra",
+        "osm_id": 910108,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.992,
+          17.052
+        ]
+      },
+      "properties": {
+        "name": "ACC Wadi Cement Works",
+        "facility_name": "ACC Wadi Cement Works",
+        "category": "Other",
+        "operator": "ACC Limited",
+        "state": "Karnataka",
+        "osm_id": 910109,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          81.385,
+          21.238
+        ]
+      },
+      "properties": {
+        "name": "ACC Jamul Cement Works Durg",
+        "facility_name": "ACC Jamul Cement Works Durg",
+        "category": "Other",
+        "operator": "ACC Limited",
+        "state": "Chhattisgarh",
+        "osm_id": 910110,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.185,
+          19.728
+        ]
+      },
+      "properties": {
+        "name": "Ambuja Maratha Cement Works Chandrapur",
+        "facility_name": "Ambuja Maratha Cement Works Chandrapur",
+        "category": "Other",
+        "operator": "Ambuja Cements",
+        "state": "Maharashtra",
+        "osm_id": 910111,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.582,
+          24.786
+        ]
+      },
+      "properties": {
+        "name": "UltraTech Aditya Cement Works Shambhupura",
+        "facility_name": "UltraTech Aditya Cement Works Shambhupura",
+        "category": "Other",
+        "operator": "UltraTech Cement",
+        "state": "Rajasthan",
+        "osm_id": 910112,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.082,
+          11.134
+        ]
+      },
+      "properties": {
+        "name": "UltraTech Reddipalayam Cement Works Ariyalur",
+        "facility_name": "UltraTech Reddipalayam Cement Works Ariyalur",
+        "category": "Other",
+        "operator": "UltraTech Cement",
+        "state": "Tamil Nadu",
+        "osm_id": 910113,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.965,
+          10.967
+        ]
+      },
+      "properties": {
+        "name": "Dalmia Cement Bharat Dalmiapuram",
+        "facility_name": "Dalmia Cement Bharat Dalmiapuram",
+        "category": "Other",
+        "operator": "Dalmia Cement",
+        "state": "Tamil Nadu",
+        "osm_id": 910114,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.536,
+          14.632
+        ]
+      },
+      "properties": {
+        "name": "Zuari Cement Works Yerraguntla",
+        "facility_name": "Zuari Cement Works Yerraguntla",
+        "category": "Other",
+        "operator": "HeidelbergCement",
+        "state": "Andhra Pradesh",
+        "osm_id": 910115,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.995,
+          14.912
+        ]
+      },
+      "properties": {
+        "name": "Penna Cement Works Tadipatri",
+        "facility_name": "Penna Cement Works Tadipatri",
+        "category": "Other",
+        "operator": "Penna Cement",
+        "state": "Andhra Pradesh",
+        "osm_id": 910116,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.225,
+          26.315
+        ]
+      },
+      "properties": {
+        "name": "Shree Cement Ras Plant",
+        "facility_name": "Shree Cement Ras Plant",
+        "category": "Other",
+        "operator": "Shree Cement",
+        "state": "Rajasthan",
+        "osm_id": 910117,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          80.958,
+          24.492
+        ]
+      },
+      "properties": {
+        "name": "Prism Johnson Cement Satna",
+        "facility_name": "Prism Johnson Cement Satna",
+        "category": "Other",
+        "operator": "Prism Johnson",
+        "state": "Madhya Pradesh",
+        "osm_id": 910118,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.288,
+          16.652
+        ]
+      },
+      "properties": {
+        "name": "Kolhapur Gokul Shirgaon Foundry & Engineering Zone",
+        "facility_name": "Kolhapur Gokul Shirgaon Foundry & Engineering Zone",
+        "category": "Steel",
+        "operator": "Kolhapur Industrial Cluster",
+        "state": "Maharashtra",
+        "osm_id": 910119,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.241,
+          16.692
+        ]
+      },
+      "properties": {
+        "name": "Kolhapur Shiroli & Udyam Nagar Foundry Cluster",
+        "facility_name": "Kolhapur Shiroli & Udyam Nagar Foundry Cluster",
+        "category": "Steel",
+        "operator": "Kolhapur Foundry Association",
+        "state": "Maharashtra",
+        "osm_id": 910120,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          74.485,
+          15.825
+        ]
+      },
+      "properties": {
+        "name": "Belagavi Machhe & Udyambag Foundry Complex",
+        "facility_name": "Belagavi Machhe & Udyambag Foundry Complex",
+        "category": "Steel",
+        "operator": "Belgaum Foundry Cluster",
+        "state": "Karnataka",
+        "osm_id": 910121,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.832,
+          18.755
+        ]
+      },
+      "properties": {
+        "name": "Chakan & Talegaon Heavy Industrial Corridor",
+        "facility_name": "Chakan & Talegaon Heavy Industrial Corridor",
+        "category": "Other",
+        "operator": "MIDC",
+        "state": "Maharashtra",
+        "osm_id": 910122,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.815,
+          18.628
+        ]
+      },
+      "properties": {
+        "name": "Pimpri-Chinchwad Heavy Engineering & Auto Hub",
+        "facility_name": "Pimpri-Chinchwad Heavy Engineering & Auto Hub",
+        "category": "Other",
+        "operator": "MIDC",
+        "state": "Maharashtra",
+        "osm_id": 910123,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          75.228,
+          19.845
+        ]
+      },
+      "properties": {
+        "name": "Waluj MIDC Heavy Industrial Zone",
+        "facility_name": "Waluj MIDC Heavy Industrial Zone",
+        "category": "Other",
+        "operator": "MIDC",
+        "state": "Maharashtra",
+        "osm_id": 910124,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.658,
+          21.158
+        ]
+      },
+      "properties": {
+        "name": "Hazira Heavy Engineering & Petrochemical Zone",
+        "facility_name": "Hazira Heavy Engineering & Petrochemical Zone",
+        "category": "Other",
+        "operator": "L&T / Reliance",
+        "state": "Gujarat",
+        "osm_id": 910125,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          73.015,
+          21.628
+        ]
+      },
+      "properties": {
+        "name": "Ankleshwar GIDC Chemical & Industrial Estate",
+        "facility_name": "Ankleshwar GIDC Chemical & Industrial Estate",
+        "category": "Chemical",
+        "operator": "GIDC",
+        "state": "Gujarat",
+        "osm_id": 910126,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.925,
+          20.372
+        ]
+      },
+      "properties": {
+        "name": "Vapi GIDC Chemical & Heavy Industrial Zone",
+        "facility_name": "Vapi GIDC Chemical & Heavy Industrial Zone",
+        "category": "Chemical",
+        "operator": "GIDC",
+        "state": "Gujarat",
+        "osm_id": 910127,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          72.368,
+          22.985
+        ]
+      },
+      "properties": {
+        "name": "Sanand GIDC Heavy Industrial Estate",
+        "facility_name": "Sanand GIDC Heavy Industrial Estate",
+        "category": "Other",
+        "operator": "GIDC",
+        "state": "Gujarat",
+        "osm_id": 910128,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          78.258,
+          17.525
+        ]
+      },
+      "properties": {
+        "name": "Patancheru & Pashamylaram Heavy Industrial Zone",
+        "facility_name": "Patancheru & Pashamylaram Heavy Industrial Zone",
+        "category": "Other",
+        "operator": "TSIIC",
+        "state": "Telangana",
+        "osm_id": 910129,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.518,
+          13.032
+        ]
+      },
+      "properties": {
+        "name": "Peenya Heavy Industrial Area Bengaluru",
+        "facility_name": "Peenya Heavy Industrial Area Bengaluru",
+        "category": "Other",
+        "operator": "KIADB",
+        "state": "Karnataka",
+        "osm_id": 910130,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.835,
+          12.748
+        ]
+      },
+      "properties": {
+        "name": "Hosur SIPCOT Heavy Industrial Complex",
+        "facility_name": "Hosur SIPCOT Heavy Industrial Complex",
+        "category": "Other",
+        "operator": "SIPCOT",
+        "state": "Tamil Nadu",
+        "osm_id": 910131,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          79.332,
+          12.928
+        ]
+      },
+      "properties": {
+        "name": "Ranipet SIPCOT Heavy Industrial Zone",
+        "facility_name": "Ranipet SIPCOT Heavy Industrial Zone",
+        "category": "Chemical",
+        "operator": "SIPCOT",
+        "state": "Tamil Nadu",
+        "osm_id": 910132,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          76.975,
+          10.942
+        ]
+      },
+      "properties": {
+        "name": "Coimbatore SIDCO & Kurichi Foundry Cluster",
+        "facility_name": "Coimbatore SIDCO & Kurichi Foundry Cluster",
+        "category": "Steel",
+        "operator": "CODISSIA",
+        "state": "Tamil Nadu",
+        "osm_id": 910133,
+        "last_updated": "2026-09-30T00:00:00Z"
+      }
+    }
+  ]
+}
