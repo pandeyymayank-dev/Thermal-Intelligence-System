@@ -12,10 +12,10 @@ services:
       - key: PYTHON_VERSION
         value: 3.10.12
 
-  # 2. React Vite Frontend Static Site (No region needed for static)
-  - type: web
+  # 2. React Vite Frontend Static Site
+  - type: static
     name: ntro-thermal-dashboard
-    env: static
+    region: singapore
     rootDir: apps/web-dashboard
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist

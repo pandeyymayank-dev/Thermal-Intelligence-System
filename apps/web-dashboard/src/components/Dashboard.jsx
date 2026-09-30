@@ -39,51 +39,98 @@ export default function Dashboard() {
   const [syncStatus, setSyncStatus] = useState('Initializing Tactical AI Defense Stream...');
   const [aiEngineStatus, setAiEngineStatus] = useState('LightGBM Active');
 
+  // Cold-Start Resilient Auto-Sync & Overlay states
+  const [isInitialLoading, setIsInitialLoading] = useState(true);
+  const [initialLoadingStage, setInitialLoadingStage] = useState('Connecting to NTRO AI Inference Stream...');
+  const [retryAttempt, setRetryAttempt] = useState(1);
+
   /**
-   * Load initial facilities & satellite hotspots with AI classification.
+   * Component Mount Auto-Fetch with Cold-Start Resilience.
+   * Automatically executes on initial mount with up to 3 retries (3s delay)
+   * to seamlessly bridge Render free tier spin-up delays.
    */
   useEffect(() => {
     let isMounted = true;
+    const MAX_RETRIES = 3;
+    const RETRY_DELAY_MS = 3000;
+    const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
-    async function loadInitialData() {
-      try {
-        // 1. Load OSM Strategic Facilities
-        const facRes = await fetchFacilities();
-        if (isMounted && facRes) {
-          setFacilitiesData(facRes);
+    async function executeInitialFetchWithRetry() {
+      // 1. Non-blocking background fetch for OSM Strategic Facilities
+      fetchFacilities(15000)
+        .then((facRes) => {
+          if (isMounted && facRes) {
+            setFacilitiesData(facRes);
+          }
+        })
+        .catch((err) => {
+          console.warn('Initial OSM facilities fetch fallback:', err);
+        });
+
+      // 2. Retry loop for satellite hotspot telemetry & LightGBM inference
+      let fetchSuccess = false;
+      for (let attempt = 1; attempt <= MAX_RETRIES; attempt++) {
+        if (!isMounted) return;
+        setRetryAttempt(attempt);
+
+        if (attempt === 1) {
+          setInitialLoadingStage('Connecting to satellite telemetry & LightGBM inference...');
+        } else {
+          setInitialLoadingStage(
+            `Waking up Render backend service (Attempt ${attempt}/${MAX_RETRIES}). Please wait...`
+          );
         }
-      } catch (err) {
-        console.warn('Initial OSM facilities fetch fallback:', err);
+
+        try {
+          // Primary: Fetch AI Classified Hotspots from LightGBM Engine
+          const enriched = await classifyThermalHotspots({ format: 'geojson' }, 25000);
+          if (isMounted && enriched && Array.isArray(enriched.features) && enriched.features.length > 0) {
+            setClassifiedData(enriched);
+            setRawHotspotsData(enriched);
+            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            setLastSynced(`Last synced: ${timeStr}`);
+            setSyncStatus(`Active stream: ${enriched.features.length} satellite hotspots.`);
+            fetchSuccess = true;
+            break;
+          }
+
+          // Fallback: Fetch raw FIRMS hotspots
+          const raw = await fetchThermalHotspots(1, false, 20000);
+          if (isMounted && raw && Array.isArray(raw.features) && raw.features.length > 0) {
+            setRawHotspotsData(raw);
+            setClassifiedData(raw);
+            const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+            setLastSynced(`Last synced: ${timeStr}`);
+            setSyncStatus(`Active stream: ${raw.features.length} raw satellite hotspots.`);
+            fetchSuccess = true;
+            break;
+          }
+
+          throw new Error('Satellite stream returned empty or uninitialized dataset.');
+        } catch (err) {
+          console.warn(`Initial stream fetch attempt ${attempt} failed:`, err);
+          if (attempt < MAX_RETRIES) {
+            setInitialLoadingStage(
+              `Attempt ${attempt} timed out. Reconnecting in 3s (Attempt ${attempt + 1}/${MAX_RETRIES})...`
+            );
+            await delay(RETRY_DELAY_MS);
+          }
+        }
       }
 
-      try {
-        // 2. Fetch AI Classified Hotspots from LightGBM Engine
-        const enriched = await classifyThermalHotspots({ format: 'geojson' });
-        if (isMounted && enriched && enriched.features && enriched.features.length > 0) {
-          setClassifiedData(enriched);
-          setRawHotspotsData(enriched);
-          const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-          setLastSynced(`Last synced: ${timeStr}`);
-          setSyncStatus(`Active stream: ${enriched.features.length} satellite hotspots.`);
-          return;
+      if (isMounted) {
+        if (!fetchSuccess) {
+          setSyncStatus('Satellite stream standby. Cached telemetry ready.');
         }
-
-        // Fallback: Fetch raw FIRMS hotspots and enrich
-        const raw = await fetchThermalHotspots(1, false);
-        if (isMounted && raw && raw.features) {
-          setRawHotspotsData(raw);
-          setClassifiedData(raw);
-          const timeStr = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-          setLastSynced(`Last synced: ${timeStr}`);
-        }
-      } catch (err) {
-        console.error('Initial thermal stream fetch error:', err);
-        if (isMounted) setSyncStatus('Satellite stream standby. Cached telemetry loaded.');
+        setIsInitialLoading(false);
       }
     }
 
-    loadInitialData();
-    return () => { isMounted = false; };
+    executeInitialFetchWithRetry();
+
+    return () => {
+      isMounted = false;
+    };
   }, []);
 
   /**
@@ -94,7 +141,7 @@ export default function Dashboard() {
     setSyncStatus('Synchronizing NASA VIIRS stream with LightGBM inference...');
     try {
       // 1. Fetch fresh AI classified GeoJSON
-      const enriched = await classifyThermalHotspots({ format: 'geojson' }, 18000);
+      const enriched = await classifyThermalHotspots({ format: 'geojson' }, 25000);
       if (enriched && enriched.features && enriched.features.length > 0) {
         setClassifiedData(enriched);
         setRawHotspotsData(enriched);
@@ -105,7 +152,7 @@ export default function Dashboard() {
       }
 
       // Fallback
-      const raw = await fetchThermalHotspots(1, true, 12000);
+      const raw = await fetchThermalHotspots(1, true, 20000);
       if (raw && raw.features) {
         setRawHotspotsData(raw);
         setClassifiedData(raw);
@@ -199,6 +246,189 @@ export default function Dashboard() {
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%', overflow: 'hidden', display: 'flex' }}>
+      {/* ------------------------------------------------------------- */}
+      {/* 0. TACTICAL LOADING OVERLAY: Auto-Fetch & Cold-Start Indicator */}
+      {/* ------------------------------------------------------------- */}
+      {isInitialLoading && (
+        <div
+          style={{
+            position: 'absolute',
+            inset: 0,
+            zIndex: 2000,
+            background: 'rgba(10, 15, 29, 0.88)',
+            backdropFilter: 'blur(10px)',
+            WebkitBackdropFilter: 'blur(10px)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '20px',
+            animation: 'modal-fade-in 0.3s ease-out',
+          }}
+        >
+          <div
+            style={{
+              maxWidth: '460px',
+              width: '100%',
+              background: 'rgba(15, 23, 42, 0.95)',
+              border: '1px solid rgba(0, 229, 255, 0.35)',
+              boxShadow: '0 0 40px rgba(0, 229, 255, 0.15), 0 20px 40px rgba(0,0,0,0.8)',
+              borderRadius: '16px',
+              padding: '32px 28px',
+              textAlign: 'center',
+              display: 'flex',
+              flexDirection: 'column',
+              alignItems: 'center',
+              position: 'relative',
+              overflow: 'hidden',
+            }}
+          >
+            {/* Top Scanning Line */}
+            <div
+              style={{
+                position: 'absolute',
+                top: 0,
+                left: 0,
+                right: 0,
+                height: '2px',
+                background: 'linear-gradient(90deg, transparent, #00e5ff, transparent)',
+                animation: 'scanline 2s linear infinite',
+              }}
+            />
+
+            {/* Tactical Radar Spinner */}
+            <div
+              style={{
+                position: 'relative',
+                width: '68px',
+                height: '68px',
+                marginBottom: '18px',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <div
+                style={{
+                  position: 'absolute',
+                  inset: 0,
+                  borderRadius: '50%',
+                  border: '2px dashed rgba(0, 229, 255, 0.35)',
+                  animation: 'spin 12s linear infinite',
+                }}
+              />
+              <div
+                style={{
+                  position: 'absolute',
+                  inset: '7px',
+                  borderRadius: '50%',
+                  border: '2px solid rgba(0, 229, 255, 0.2)',
+                  borderTopColor: '#00e5ff',
+                  animation: 'spin 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite',
+                }}
+              />
+              <span style={{ fontSize: '26px' }}>🛰️</span>
+            </div>
+
+            {/* Main Header */}
+            <h2
+              style={{
+                fontSize: '15px',
+                fontWeight: 800,
+                letterSpacing: '1px',
+                textTransform: 'uppercase',
+                color: '#f8fafc',
+                margin: '0 0 8px 0',
+                fontFamily: "'JetBrains Mono', monospace",
+              }}
+            >
+              Connecting to NTRO AI Inference Stream...
+            </h2>
+
+            {/* Subtitle / Telemetry Status */}
+            <p
+              style={{
+                fontSize: '12px',
+                color: '#94a3b8',
+                margin: '0 0 16px 0',
+                lineHeight: '1.5',
+              }}
+            >
+              {initialLoadingStage}
+            </p>
+
+            {/* Cold Start Indicator Badge */}
+            <div
+              style={{
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                background: 'rgba(0, 229, 255, 0.08)',
+                border: '1px solid rgba(0, 229, 255, 0.25)',
+                padding: '6px 14px',
+                borderRadius: '20px',
+                fontSize: '11px',
+                fontFamily: "'JetBrains Mono', monospace",
+                color: '#38bdf8',
+                marginBottom: '16px',
+              }}
+            >
+              <span
+                style={{
+                  width: '7px',
+                  height: '7px',
+                  borderRadius: '50%',
+                  background: retryAttempt > 1 ? '#f59e0b' : '#00e5ff',
+                  boxShadow: `0 0 8px ${retryAttempt > 1 ? '#f59e0b' : '#00e5ff'}`,
+                  animation: 'pulse 1.2s infinite',
+                }}
+              />
+              <span>
+                Attempt {retryAttempt} of 3 • Backend Cold-Start Resilience
+              </span>
+            </div>
+
+            {/* Pipeline Feature Badges */}
+            <div
+              style={{
+                display: 'flex',
+                flexWrap: 'wrap',
+                gap: '6px',
+                justifyContent: 'center',
+                fontSize: '10px',
+                color: '#64748b',
+                fontFamily: "'JetBrains Mono', monospace",
+              }}
+            >
+              <span style={{ background: 'rgba(255,255,255,0.05)', padding: '3px 8px', borderRadius: '4px' }}>
+                VIIRS 375m NRT
+              </span>
+              <span style={{ background: 'rgba(255,255,255,0.05)', padding: '3px 8px', borderRadius: '4px' }}>
+                MODIS C6.1
+              </span>
+              <span style={{ background: 'rgba(255,255,255,0.05)', padding: '3px 8px', borderRadius: '4px' }}>
+                LightGBM Engine
+              </span>
+            </div>
+
+            {/* Standby Dismiss Button */}
+            <button
+              type="button"
+              onClick={() => setIsInitialLoading(false)}
+              style={{
+                marginTop: '20px',
+                background: 'transparent',
+                border: 'none',
+                color: '#64748b',
+                fontSize: '11px',
+                cursor: 'pointer',
+                textDecoration: 'underline',
+              }}
+            >
+              Explore Map Canvas (Standby Mode)
+            </button>
+          </div>
+        </div>
+      )}
       {/* ------------------------------------------------------------- */}
       {/* 1. LEFT PANEL: Operational Multi-Select Filters Sidebar       */}
       {/* ------------------------------------------------------------- */}

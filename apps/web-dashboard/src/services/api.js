@@ -1,15 +1,13 @@
 // NTRO Thermal Intelligence Platform - API Client
-const API_BASE_URL =
-  import.meta.env.VITE_API_BASE_URL ||
-  (import.meta.env.PROD
-    ? 'https://ntro-thermal-api.onrender.com/api/v1'
-    : 'http://localhost:8000/api/v1');
+const RAW_URL = import.meta.env.VITE_API_BASE_URL || 'https://ntro-thermal-api.onrender.com';
+const CLEAN_BASE = RAW_URL.replace(/\/+$/, '');
+export const API_BASE_URL = CLEAN_BASE.endsWith('/api/v1') ? CLEAN_BASE : `${CLEAN_BASE}/api/v1`;
 
 /**
  * Helper to execute fetch with custom timeout via AbortController.
  */
 async function fetchWithTimeout(resource, options = {}) {
-  const { timeout = 15000, ...fetchOptions } = options;
+  const { timeout = 25000, ...fetchOptions } = options;
   const controller = new AbortController();
   const id = setTimeout(() => controller.abort(), timeout);
 
@@ -30,11 +28,11 @@ async function fetchWithTimeout(resource, options = {}) {
  * Fetch cached/live strategic industrial facilities GeoJSON from backend.
  * @returns {Promise<Object>} GeoJSON FeatureCollection
  */
-export async function fetchFacilities(timeout = 10000) {
+export async function fetchFacilities(timeout = 15000) {
   try {
     const response = await fetchWithTimeout(`${API_BASE_URL}/osm/facilities`, { timeout });
     if (!response.ok) {
-      const fallbackResp = await fetchWithTimeout(`${API_BASE_URL}/spatial/facilities`, { timeout: 5000 });
+      const fallbackResp = await fetchWithTimeout(`${API_BASE_URL}/spatial/facilities`, { timeout: 8000 });
       if (!fallbackResp.ok) {
         throw new Error(`Failed to fetch facilities: ${response.status}`);
       }
@@ -51,7 +49,7 @@ export async function fetchFacilities(timeout = 10000) {
  * Trigger backend to re-query OSM Overpass API with NWR, overwrite storage cache, and return updated GeoJSON.
  * @returns {Promise<Object>} Updated GeoJSON FeatureCollection
  */
-export async function refreshMapData(timeout = 15000) {
+export async function refreshMapData(timeout = 25000) {
   try {
     const response = await fetchWithTimeout(`${API_BASE_URL}/spatial/refresh`, {
       method: 'POST',
@@ -62,7 +60,7 @@ export async function refreshMapData(timeout = 15000) {
       const fallbackResp = await fetchWithTimeout(`${API_BASE_URL}/map/refresh`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        timeout: 8000,
+        timeout: 10000,
       });
       if (!fallbackResp.ok) {
         throw new Error(`Failed to refresh map data: ${response.status}`);
@@ -84,7 +82,7 @@ export async function refreshMapData(timeout = 15000) {
  * @param {number} timeout
  * @returns {Promise<Object>} GeoJSON FeatureCollection
  */
-export async function fetchThermalHotspots(dayRange = 1, refresh = false, timeout = 15000) {
+export async function fetchThermalHotspots(dayRange = 1, refresh = false, timeout = 25000) {
   try {
     const refreshParam = refresh ? '&refresh=true' : '';
     const response = await fetchWithTimeout(
@@ -94,7 +92,7 @@ export async function fetchThermalHotspots(dayRange = 1, refresh = false, timeou
     if (!response.ok) {
       const fallbackResp = await fetchWithTimeout(
         `${API_BASE_URL}/thermal/anomalies?day_range=${dayRange}`,
-        { timeout: 5000 }
+        { timeout: 10000 }
       );
       if (!fallbackResp.ok) {
         throw new Error(`Failed to fetch thermal hotspots: ${response.status}`);
@@ -114,7 +112,7 @@ export async function fetchThermalHotspots(dayRange = 1, refresh = false, timeou
  * @param {number} timeout
  * @returns {Promise<Object>} Enriched GeoJSON FeatureCollection
  */
-export async function classifyThermalHotspots(rawHotspotsGeoJSON, timeout = 15000) {
+export async function classifyThermalHotspots(rawHotspotsGeoJSON, timeout = 25000) {
   try {
     const response = await fetchWithTimeout(`${API_BASE_URL}/inference/classify`, {
       method: 'POST',
