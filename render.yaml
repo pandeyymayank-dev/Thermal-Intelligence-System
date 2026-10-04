@@ -1,3 +1,8 @@
+# ==============================================================
+# NTRO Thermal Intelligence Platform — Render Blueprint Deployment
+# Automated Dual Deployment: FastAPI Service + React Static Site
+# ==============================================================
+
 services:
   # 1. FastAPI Backend Service
   - type: web
