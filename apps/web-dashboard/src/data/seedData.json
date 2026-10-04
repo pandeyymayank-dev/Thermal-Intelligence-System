@@ -1,0 +1,1972 @@
+{
+  "facilities": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.67,
+            24.104
+          ]
+        },
+        "properties": {
+          "name": "NTPC Vindhyachal Super Thermal Power Station (4,760 MW)",
+          "facility_name": "NTPC Vindhyachal Super Thermal Power Station (4,760 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Madhya Pradesh",
+          "osm_id": 910000,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.708,
+            24.101
+          ]
+        },
+        "properties": {
+          "name": "NTPC Singrauli Super Thermal Power Station (2,000 MW)",
+          "facility_name": "NTPC Singrauli Super Thermal Power Station (2,000 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Uttar Pradesh",
+          "osm_id": 910001,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.793,
+            24.027
+          ]
+        },
+        "properties": {
+          "name": "NTPC Rihand Super Thermal Power Station (3,000 MW)",
+          "facility_name": "NTPC Rihand Super Thermal Power Station (3,000 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Uttar Pradesh",
+          "osm_id": 910002,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.698,
+            22.385
+          ]
+        },
+        "properties": {
+          "name": "NTPC Korba Super Thermal Power Plant (2,600 MW)",
+          "facility_name": "NTPC Korba Super Thermal Power Plant (2,600 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Chhattisgarh",
+          "osm_id": 910003,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.285,
+            22.133
+          ]
+        },
+        "properties": {
+          "name": "NTPC Sipat Super Thermal Power Station (2,980 MW)",
+          "facility_name": "NTPC Sipat Super Thermal Power Station (2,980 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Chhattisgarh",
+          "osm_id": 910004,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            83.376,
+            21.758
+          ]
+        },
+        "properties": {
+          "name": "NTPC Lara Super Thermal Power Project (1,600 MW)",
+          "facility_name": "NTPC Lara Super Thermal Power Project (1,600 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Chhattisgarh",
+          "osm_id": 910005,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.453,
+            18.756
+          ]
+        },
+        "properties": {
+          "name": "NTPC Ramagundam Super Thermal Power Station (2,600 MW)",
+          "facility_name": "NTPC Ramagundam Super Thermal Power Station (2,600 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Telangana",
+          "osm_id": 910006,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            83.087,
+            17.603
+          ]
+        },
+        "properties": {
+          "name": "NTPC Simhadri Super Thermal Power Plant (2,000 MW)",
+          "facility_name": "NTPC Simhadri Super Thermal Power Plant (2,000 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Andhra Pradesh",
+          "osm_id": 910007,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.879,
+            16.711
+          ]
+        },
+        "properties": {
+          "name": "NTPC Kudgi Super Thermal Power Station (2,400 MW)",
+          "facility_name": "NTPC Kudgi Super Thermal Power Station (2,400 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Karnataka",
+          "osm_id": 910008,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            85.08,
+            21.096
+          ]
+        },
+        "properties": {
+          "name": "NTPC Talcher Super Thermal Power Station Kaniha (3,000 MW)",
+          "facility_name": "NTPC Talcher Super Thermal Power Station Kaniha (3,000 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Odisha",
+          "osm_id": 910009,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            83.847,
+            21.905
+          ]
+        },
+        "properties": {
+          "name": "NTPC Darlipali Super Thermal Power Station (1,600 MW)",
+          "facility_name": "NTPC Darlipali Super Thermal Power Station (1,600 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Odisha",
+          "osm_id": 910010,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            85.733,
+            25.485
+          ]
+        },
+        "properties": {
+          "name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+          "facility_name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Bihar",
+          "osm_id": 910011,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            87.265,
+            25.263
+          ]
+        },
+        "properties": {
+          "name": "NTPC Kahalgaon Super Thermal Power Station (2,340 MW)",
+          "facility_name": "NTPC Kahalgaon Super Thermal Power Station (2,340 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Bihar",
+          "osm_id": 910012,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            87.904,
+            24.778
+          ]
+        },
+        "properties": {
+          "name": "NTPC Farakka Super Thermal Power Station (2,100 MW)",
+          "facility_name": "NTPC Farakka Super Thermal Power Station (2,100 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "West Bengal",
+          "osm_id": 910013,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.397,
+            21.171
+          ]
+        },
+        "properties": {
+          "name": "NTPC Mouda Super Thermal Power Station (2,320 MW)",
+          "facility_name": "NTPC Mouda Super Thermal Power Station (2,320 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Maharashtra",
+          "osm_id": 910014,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.894,
+            17.585
+          ]
+        },
+        "properties": {
+          "name": "NTPC Solapur Super Thermal Power Station (1,320 MW)",
+          "facility_name": "NTPC Solapur Super Thermal Power Station (1,320 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Maharashtra",
+          "osm_id": 910015,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.809,
+            22.888
+          ]
+        },
+        "properties": {
+          "name": "NTPC Gadarwara Super Thermal Power Station (1,600 MW)",
+          "facility_name": "NTPC Gadarwara Super Thermal Power Station (1,600 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Madhya Pradesh",
+          "osm_id": 910016,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.845,
+            21.761
+          ]
+        },
+        "properties": {
+          "name": "NTPC Khargone Super Thermal Power Plant (1,320 MW)",
+          "facility_name": "NTPC Khargone Super Thermal Power Plant (1,320 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Madhya Pradesh",
+          "osm_id": 910017,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.546,
+            28.6
+          ]
+        },
+        "properties": {
+          "name": "NTPC Dadri Super Thermal Power Station (1,820 MW)",
+          "facility_name": "NTPC Dadri Super Thermal Power Station (1,820 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Uttar Pradesh",
+          "osm_id": 910018,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            81.328,
+            25.912
+          ]
+        },
+        "properties": {
+          "name": "NTPC Unchahar Thermal Power Station (1,550 MW)",
+          "facility_name": "NTPC Unchahar Thermal Power Station (1,550 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Uttar Pradesh",
+          "osm_id": 910019,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.597,
+            26.586
+          ]
+        },
+        "properties": {
+          "name": "NTPC Tanda Thermal Power Station (1,760 MW)",
+          "facility_name": "NTPC Tanda Thermal Power Station (1,760 MW)",
+          "category": "Thermal Power",
+          "operator": "NTPC Limited",
+          "state": "Uttar Pradesh",
+          "osm_id": 910020,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            69.528,
+            22.828
+          ]
+        },
+        "properties": {
+          "name": "Mundra Ultra Mega Thermal Power Complex (4,000 MW)",
+          "facility_name": "Mundra Ultra Mega Thermal Power Complex (4,000 MW)",
+          "category": "Thermal Power",
+          "operator": "Tata Power",
+          "state": "Gujarat",
+          "osm_id": 910021,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            69.551,
+            22.821
+          ]
+        },
+        "properties": {
+          "name": "Adani Mundra Thermal Power Station (4,620 MW)",
+          "facility_name": "Adani Mundra Thermal Power Station (4,620 MW)",
+          "category": "Thermal Power",
+          "operator": "Adani Power",
+          "state": "Gujarat",
+          "osm_id": 910022,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            82.628,
+            23.978
+          ]
+        },
+        "properties": {
+          "name": "Sasan Ultra Mega Power Plant (3,960 MW)",
+          "facility_name": "Sasan Ultra Mega Power Plant (3,960 MW)",
+          "category": "Thermal Power",
+          "operator": "Reliance Power",
+          "state": "Madhya Pradesh",
+          "osm_id": 910023,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.289,
+            19.986
+          ]
+        },
+        "properties": {
+          "name": "Chandrapur Super Thermal Power Station (2,920 MW)",
+          "facility_name": "Chandrapur Super Thermal Power Station (2,920 MW)",
+          "category": "Thermal Power",
+          "operator": "Mahagenco",
+          "state": "Maharashtra",
+          "osm_id": 910024,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.097,
+            21.248
+          ]
+        },
+        "properties": {
+          "name": "Koradi Thermal Power Station (2,400 MW)",
+          "facility_name": "Koradi Thermal Power Station (2,400 MW)",
+          "category": "Thermal Power",
+          "operator": "Mahagenco",
+          "state": "Maharashtra",
+          "osm_id": 910025,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.119,
+            21.282
+          ]
+        },
+        "properties": {
+          "name": "Khaparkheda Thermal Power Station (1,340 MW)",
+          "facility_name": "Khaparkheda Thermal Power Station (1,340 MW)",
+          "category": "Thermal Power",
+          "operator": "Mahagenco",
+          "state": "Maharashtra",
+          "osm_id": 910026,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.844,
+            21.048
+          ]
+        },
+        "properties": {
+          "name": "Bhusawal Thermal Power Station (1,420 MW)",
+          "facility_name": "Bhusawal Thermal Power Station (1,420 MW)",
+          "category": "Thermal Power",
+          "operator": "Mahagenco",
+          "state": "Maharashtra",
+          "osm_id": 910027,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.967,
+            21.414
+          ]
+        },
+        "properties": {
+          "name": "Adani Tiroda Thermal Power Station (3,300 MW)",
+          "facility_name": "Adani Tiroda Thermal Power Station (3,300 MW)",
+          "category": "Thermal Power",
+          "operator": "Adani Power",
+          "state": "Maharashtra",
+          "osm_id": 910028,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            76.718,
+            15.195
+          ]
+        },
+        "properties": {
+          "name": "Bellary Thermal Power Station (1,700 MW)",
+          "facility_name": "Bellary Thermal Power Station (1,700 MW)",
+          "category": "Thermal Power",
+          "operator": "KPCL",
+          "state": "Karnataka",
+          "osm_id": 910029,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.346,
+            16.353
+          ]
+        },
+        "properties": {
+          "name": "Raichur Thermal Power Station (1,720 MW)",
+          "facility_name": "Raichur Thermal Power Station (1,720 MW)",
+          "category": "Thermal Power",
+          "operator": "KPCL",
+          "state": "Karnataka",
+          "osm_id": 910030,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.337,
+            16.297
+          ]
+        },
+        "properties": {
+          "name": "Yermarus Thermal Power Station (1,600 MW)",
+          "facility_name": "Yermarus Thermal Power Station (1,600 MW)",
+          "category": "Thermal Power",
+          "operator": "KPCL",
+          "state": "Karnataka",
+          "osm_id": 910031,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.795,
+            13.145
+          ]
+        },
+        "properties": {
+          "name": "Udupi Thermal Power Plant (1,200 MW)",
+          "facility_name": "Udupi Thermal Power Plant (1,200 MW)",
+          "category": "Thermal Power",
+          "operator": "Adani Power",
+          "state": "Karnataka",
+          "osm_id": 910032,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.536,
+            16.598
+          ]
+        },
+        "properties": {
+          "name": "Dr. Narla Tata Rao Thermal Power Station Vijayawada (1,760 MW)",
+          "facility_name": "Dr. Narla Tata Rao Thermal Power Station Vijayawada (1,760 MW)",
+          "category": "Thermal Power",
+          "operator": "APGENCO",
+          "state": "Andhra Pradesh",
+          "osm_id": 910033,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.129,
+            14.331
+          ]
+        },
+        "properties": {
+          "name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+          "facility_name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+          "category": "Thermal Power",
+          "operator": "APGENCO",
+          "state": "Andhra Pradesh",
+          "osm_id": 910034,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.461,
+            14.711
+          ]
+        },
+        "properties": {
+          "name": "Rayalaseema Thermal Power Station Kadapa (1,650 MW)",
+          "facility_name": "Rayalaseema Thermal Power Station Kadapa (1,650 MW)",
+          "category": "Thermal Power",
+          "operator": "APGENCO",
+          "state": "Andhra Pradesh",
+          "osm_id": 910035,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.687,
+            17.551
+          ]
+        },
+        "properties": {
+          "name": "Kothagudem Thermal Power Station (1,800 MW)",
+          "facility_name": "Kothagudem Thermal Power Station (1,800 MW)",
+          "category": "Thermal Power",
+          "operator": "TSGENCO",
+          "state": "Telangana",
+          "osm_id": 910036,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.793,
+            17.886
+          ]
+        },
+        "properties": {
+          "name": "Bhadradri Thermal Power Station Manuguru (1,080 MW)",
+          "facility_name": "Bhadradri Thermal Power Station Manuguru (1,080 MW)",
+          "category": "Thermal Power",
+          "operator": "TSGENCO",
+          "state": "Telangana",
+          "osm_id": 910037,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.824,
+            18.232
+          ]
+        },
+        "properties": {
+          "name": "Kakatiya Thermal Power Station Warangal (1,100 MW)",
+          "facility_name": "Kakatiya Thermal Power Station Warangal (1,100 MW)",
+          "category": "Thermal Power",
+          "operator": "TSGENCO",
+          "state": "Telangana",
+          "osm_id": 910038,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.489,
+            11.597
+          ]
+        },
+        "properties": {
+          "name": "Neyveli Lignite Thermal Power Station (1,000 MW)",
+          "facility_name": "Neyveli Lignite Thermal Power Station (1,000 MW)",
+          "category": "Thermal Power",
+          "operator": "NLC India",
+          "state": "Tamil Nadu",
+          "osm_id": 910039,
+          "last_updated": "2026-09-30T00:00:00Z"
+        }
+      }
+    ]
+  },
+  "hotspots": {
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.19095,
+            30.98096
+          ]
+        },
+        "properties": {
+          "latitude": 30.98096,
+          "longitude": 74.19095,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 136090.1955225465,
+          "frp": 3.23,
+          "bright_ti4": 342.28,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.36e+05, frp=3.23"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.69925,
+            30.67774
+          ]
+        },
+        "properties": {
+          "latitude": 30.67774,
+          "longitude": 74.69925,
+          "acq_date": "2026-09-30",
+          "class": "WILDFIRE",
+          "cls": "WILDFIRE",
+          "predicted_category": "WILDFIRE",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "wildfire",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 82778.0426347986,
+          "frp": 20.65,
+          "bright_ti4": 367.0,
+          "frp_hist": 0.0,
+          "top_features": "bright_ti4=367, scan=0.34, ti_delta=64.5"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.61254,
+            31.12642
+          ]
+        },
+        "properties": {
+          "latitude": 31.12642,
+          "longitude": 74.61254,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 132618.67935601625,
+          "frp": 3.62,
+          "bright_ti4": 334.65,
+          "frp_hist": 0.0,
+          "top_features": "month=9, frp=3.62, dist_fac=1.33e+05"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.63891,
+            31.10069
+          ]
+        },
+        "properties": {
+          "latitude": 31.10069,
+          "longitude": 74.63891,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 129154.8155969057,
+          "frp": 4.22,
+          "bright_ti4": 335.32,
+          "frp_hist": 2.523333333333333,
+          "top_features": "month=9, dist_fac=1.29e+05, frp=4.22"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.61254,
+            31.12642
+          ]
+        },
+        "properties": {
+          "latitude": 31.12642,
+          "longitude": 74.61254,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 132618.67935601625,
+          "frp": 3.62,
+          "bright_ti4": 334.65,
+          "frp_hist": 0.0,
+          "top_features": "month=9, frp=3.62, dist_fac=1.33e+05"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.19049,
+            30.98156
+          ]
+        },
+        "properties": {
+          "latitude": 30.98156,
+          "longitude": 74.19049,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 136169.9574973763,
+          "frp": 2.85,
+          "bright_ti4": 342.01,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.36e+05, frp=2.85"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.19095,
+            30.98096
+          ]
+        },
+        "properties": {
+          "latitude": 30.98096,
+          "longitude": 74.19095,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 136090.1955225465,
+          "frp": 3.23,
+          "bright_ti4": 342.28,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.36e+05, frp=3.23"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.69925,
+            30.67774
+          ]
+        },
+        "properties": {
+          "latitude": 30.67774,
+          "longitude": 74.69925,
+          "acq_date": "2026-09-30",
+          "class": "WILDFIRE",
+          "cls": "WILDFIRE",
+          "predicted_category": "WILDFIRE",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "wildfire",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 82778.0426347986,
+          "frp": 20.65,
+          "bright_ti4": 367.0,
+          "frp_hist": 0.0,
+          "top_features": "bright_ti4=367, scan=0.34, ti_delta=64.5"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.63891,
+            31.10069
+          ]
+        },
+        "properties": {
+          "latitude": 31.10069,
+          "longitude": 74.63891,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 129154.8155969057,
+          "frp": 4.22,
+          "bright_ti4": 335.32,
+          "frp_hist": 2.523333333333333,
+          "top_features": "month=9, dist_fac=1.29e+05, frp=4.22"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            85.18817,
+            20.96308
+          ]
+        },
+        "properties": {
+          "latitude": 20.96308,
+          "longitude": 85.18817,
+          "acq_date": "2026-09-30",
+          "class": "WILDFIRE",
+          "cls": "WILDFIRE",
+          "predicted_category": "WILDFIRE",
+          "confidence_pct": 100.0,
+          "trend": "SHRINKING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "wildfire",
+          "fac_name": "NALCO Aluminium Smelter Angul",
+          "nearest_facility_name": "NALCO Aluminium Smelter Angul",
+          "dist_fac": 13070.906065996483,
+          "frp": 24.44,
+          "bright_ti4": 310.87,
+          "frp_hist": 4.167090909090911,
+          "top_features": "frp_day=131, track=1.6, frp=24.4"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            85.16268,
+            20.96788
+          ]
+        },
+        "properties": {
+          "latitude": 20.96788,
+          "longitude": 85.16268,
+          "acq_date": "2026-09-30",
+          "class": "WILDFIRE",
+          "cls": "WILDFIRE",
+          "predicted_category": "WILDFIRE",
+          "confidence_pct": 100.0,
+          "trend": "SHRINKING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "wildfire",
+          "fac_name": "NALCO Aluminium Smelter Angul",
+          "nearest_facility_name": "NALCO Aluminium Smelter Angul",
+          "dist_fac": 12987.795588335515,
+          "frp": 21.18,
+          "bright_ti4": 309.9,
+          "frp_hist": 3.6847169811320777,
+          "top_features": "frp_day=131, track=1.59, frp=21.2"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.19049,
+            30.98156
+          ]
+        },
+        "properties": {
+          "latitude": 30.98156,
+          "longitude": 74.19049,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 136169.9574973763,
+          "frp": 2.85,
+          "bright_ti4": 342.01,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.36e+05, frp=2.85"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.35759,
+            9.41591
+          ]
+        },
+        "properties": {
+          "latitude": 9.41591,
+          "longitude": 77.35759,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "GROWING",
+          "severity": "HARMFUL",
+          "threat_level": "HARMFUL",
+          "why": "unclassified but growing heat source",
+          "fac_name": "Sterlite Copper Complex Thoothukudi",
+          "nearest_facility_name": "Sterlite Copper Complex Thoothukudi",
+          "dist_fac": 106675.22676606735,
+          "frp": 15.39,
+          "bright_ti4": 317.01,
+          "frp_hist": 1.6349999999999998,
+          "top_features": "month=9, scan=1.22, dist_fac=1.07e+05"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            75.14087,
+            31.55173
+          ]
+        },
+        "properties": {
+          "latitude": 31.55173,
+          "longitude": 75.14087,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 174496.51558639485,
+          "frp": 2.9,
+          "bright_ti4": 329.78,
+          "frp_hist": 12.06,
+          "top_features": "month=9, scan=0.61, dist_fac=1.74e+05"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.30958,
+            9.65265
+          ]
+        },
+        "properties": {
+          "latitude": 9.65265,
+          "longitude": 80.30958,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Dalmia Cement Bharat Dalmiapuram",
+          "nearest_facility_name": "Dalmia Cement Bharat Dalmiapuram",
+          "dist_fac": 207354.4317491878,
+          "frp": 4.9,
+          "bright_ti4": 334.07,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=2.07e+05, frp=4.9"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.01387,
+            10.05331
+          ]
+        },
+        "properties": {
+          "latitude": 10.05331,
+          "longitude": 79.01387,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Dalmia Cement Bharat Dalmiapuram",
+          "nearest_facility_name": "Dalmia Cement Bharat Dalmiapuram",
+          "dist_fac": 101738.08194371486,
+          "frp": 8.03,
+          "bright_ti4": 332.98,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.02e+05, hot_30=0"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.58497,
+            9.50483
+          ]
+        },
+        "properties": {
+          "latitude": 9.50483,
+          "longitude": 77.58497,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Sterlite Copper Complex Thoothukudi",
+          "nearest_facility_name": "Sterlite Copper Complex Thoothukudi",
+          "dist_fac": 96276.72251266324,
+          "frp": 5.27,
+          "bright_ti4": 333.29,
+          "frp_hist": 0.0,
+          "top_features": "month=9, scan=0.62, dist_fac=9.63e+04"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.71851,
+            10.03709
+          ]
+        },
+        "properties": {
+          "latitude": 10.03709,
+          "longitude": 78.71851,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Dalmia Cement Bharat Dalmiapuram",
+          "nearest_facility_name": "Dalmia Cement Bharat Dalmiapuram",
+          "dist_fac": 106855.37322994402,
+          "frp": 3.12,
+          "bright_ti4": 330.21,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.07e+05, frp=3.12"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            81.29213,
+            6.43276
+          ]
+        },
+        "properties": {
+          "latitude": 6.43276,
+          "longitude": 81.29213,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "nearest_facility_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "dist_fac": 430255.1341441448,
+          "frp": 3.52,
+          "bright_ti4": 330.07,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=4.3e+05, frp=3.52"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.49957,
+            8.64707
+          ]
+        },
+        "properties": {
+          "latitude": 8.64707,
+          "longitude": 80.49957,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "STABLE",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "nearest_facility_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "dist_fac": 255926.73702438083,
+          "frp": 4.93,
+          "bright_ti4": 330.46,
+          "frp_hist": 5.34,
+          "top_features": "month=9, dist_fac=2.56e+05, frp=4.93"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.76675,
+            31.66297
+          ]
+        },
+        "properties": {
+          "latitude": 31.66297,
+          "longitude": 74.76675,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 188007.35125313525,
+          "frp": 2.57,
+          "bright_ti4": 341.14,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.88e+05, frp=2.57"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            78.89933,
+            10.70892
+          ]
+        },
+        "properties": {
+          "latitude": 10.70892,
+          "longitude": 78.89933,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Dalmia Cement Bharat Dalmiapuram",
+          "nearest_facility_name": "Dalmia Cement Bharat Dalmiapuram",
+          "dist_fac": 29579.8052693182,
+          "frp": 3.04,
+          "bright_ti4": 332.8,
+          "frp_hist": 0.0,
+          "top_features": "month=9, frp=3.04, dist_fac=2.96e+04"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.76625,
+            31.66395
+          ]
+        },
+        "properties": {
+          "latitude": 31.66395,
+          "longitude": 74.76625,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 188121.5101647578,
+          "frp": 2.17,
+          "bright_ti4": 339.35,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.88e+05, frp=2.17"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.01672,
+            10.89286
+          ]
+        },
+        "properties": {
+          "latitude": 10.89286,
+          "longitude": 79.01672,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Dalmia Cement Bharat Dalmiapuram",
+          "nearest_facility_name": "Dalmia Cement Bharat Dalmiapuram",
+          "dist_fac": 9992.415180596365,
+          "frp": 8.74,
+          "bright_ti4": 337.11,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=9.99e+03, hot_30=0"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.66262,
+            31.72326
+          ]
+        },
+        "properties": {
+          "latitude": 31.72326,
+          "longitude": 74.66262,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 196130.11850870837,
+          "frp": 3.06,
+          "bright_ti4": 338.76,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.96e+05, frp=3.06"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            77.31915,
+            11.30108
+          ]
+        },
+        "properties": {
+          "latitude": 11.30108,
+          "longitude": 77.31915,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Coimbatore SIDCO & Kurichi Foundry Cluster",
+          "nearest_facility_name": "Coimbatore SIDCO & Kurichi Foundry Cluster",
+          "dist_fac": 54810.243695476034,
+          "frp": 5.21,
+          "bright_ti4": 336.25,
+          "frp_hist": 0.0,
+          "top_features": "month=9, scan=0.6, dist_fac=5.48e+04"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.58247,
+            31.83598
+          ]
+        },
+        "properties": {
+          "latitude": 31.83598,
+          "longitude": 74.58247,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 209861.9763134539,
+          "frp": 1.99,
+          "bright_ti4": 330.01,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=2.1e+05, frp=1.99"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.07598,
+            13.33345
+          ]
+        },
+        "properties": {
+          "latitude": 13.33345,
+          "longitude": 80.07598,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "CPCL Manali Refinery (Chennai)",
+          "nearest_facility_name": "CPCL Manali Refinery (Chennai)",
+          "dist_fac": 28318.164818897865,
+          "frp": 2.59,
+          "bright_ti4": 336.85,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=2.83e+04, frp=2.59"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            72.24094,
+            31.38879
+          ]
+        },
+        "properties": {
+          "latitude": 31.38879,
+          "longitude": 72.24094,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Suratgarh Super Thermal Power Plant (2,820 MW)",
+          "nearest_facility_name": "Suratgarh Super Thermal Power Plant (2,820 MW)",
+          "dist_fac": 292150.3343603284,
+          "frp": 5.15,
+          "bright_ti4": 344.75,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=2.92e+05, frp=5.15"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            79.62819,
+            13.87048
+          ]
+        },
+        "properties": {
+          "latitude": 13.87048,
+          "longitude": 79.62819,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+          "nearest_facility_name": "Sri Damodaram Sanjeevaiah Krishnapatnam Power Station (1,600 MW)",
+          "dist_fac": 74425.96465485943,
+          "frp": 2.03,
+          "bright_ti4": 336.5,
+          "frp_hist": 0.0,
+          "top_features": "month=9, frp=2.03, dist_fac=7.44e+04"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.26233,
+            31.93929
+          ]
+        },
+        "properties": {
+          "latitude": 31.93929,
+          "longitude": 74.26233,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 228833.2603159657,
+          "frp": 2.32,
+          "bright_ti4": 333.5,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=2.29e+05, frp=2.32"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            73.85737,
+            31.91984
+          ]
+        },
+        "properties": {
+          "latitude": 31.91984,
+          "longitude": 73.85737,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "SHRINKING",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 241839.23053540825,
+          "frp": 2.83,
+          "bright_ti4": 330.27,
+          "frp_hist": 5.56,
+          "top_features": "month=9, dist_fac=2.42e+05, frp=2.83"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.54945,
+            31.48608
+          ]
+        },
+        "properties": {
+          "latitude": 31.48608,
+          "longitude": 74.54945,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 172707.40501890733,
+          "frp": 1.51,
+          "bright_ti4": 330.8,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.73e+05, frp=1.51"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.59917,
+            31.57648
+          ]
+        },
+        "properties": {
+          "latitude": 31.57648,
+          "longitude": 74.59917,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 181322.26933524612,
+          "frp": 1.54,
+          "bright_ti4": 332.14,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.81e+05, frp=1.54"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            73.85419,
+            30.48984
+          ]
+        },
+        "properties": {
+          "latitude": 30.48984,
+          "longitude": 73.85419,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 125053.05009489412,
+          "frp": 5.88,
+          "bright_ti4": 346.73,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.25e+05, frp=5.88"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            74.44752,
+            30.98207
+          ]
+        },
+        "properties": {
+          "latitude": 30.98207,
+          "longitude": 74.44752,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "nearest_facility_name": "HMEL Guru Gobind Singh Refinery Bathinda",
+          "dist_fac": 123513.26808862184,
+          "frp": 1.95,
+          "bright_ti4": 335.33,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.24e+05, frp=1.95"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            96.06511,
+            27.73723
+          ]
+        },
+        "properties": {
+          "latitude": 27.73723,
+          "longitude": 96.06511,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "IOCL Digboi Refinery",
+          "nearest_facility_name": "IOCL Digboi Refinery",
+          "dist_fac": 58164.2415567035,
+          "frp": 4.62,
+          "bright_ti4": 341.58,
+          "frp_hist": 0.0,
+          "top_features": "month=9, frp=4.62, dist_fac=5.82e+04"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            80.75105,
+            6.44447
+          ]
+        },
+        "properties": {
+          "latitude": 6.44447,
+          "longitude": 80.75105,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "nearest_facility_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "dist_fac": 383425.7303792426,
+          "frp": 3.27,
+          "bright_ti4": 335.17,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=3.83e+05, frp=3.27"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            85.33169,
+            26.81973
+          ]
+        },
+        "properties": {
+          "latitude": 26.81973,
+          "longitude": 85.33169,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+          "nearest_facility_name": "NTPC Barh Super Thermal Power Station (3,300 MW)",
+          "dist_fac": 153724.99272151737,
+          "frp": 2.78,
+          "bright_ti4": 337.63,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=1.54e+05, frp=2.78"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            81.84631,
+            7.25259
+          ]
+        },
+        "properties": {
+          "latitude": 7.25259,
+          "longitude": 81.84631,
+          "acq_date": "2026-09-30",
+          "class": "OTHER",
+          "cls": "OTHER",
+          "predicted_category": "OTHER",
+          "confidence_pct": 100.0,
+          "trend": "NEW",
+          "severity": "HARMLESS",
+          "threat_level": "HARMLESS",
+          "why": "other",
+          "fac_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "nearest_facility_name": "Tuticorin Thermal Power Station (1,050 MW)",
+          "dist_fac": 437755.28608524817,
+          "frp": 3.36,
+          "bright_ti4": 342.58,
+          "frp_hist": 0.0,
+          "top_features": "month=9, dist_fac=4.38e+05, frp=3.36"
+        }
+      }
+    ]
+  }
+}

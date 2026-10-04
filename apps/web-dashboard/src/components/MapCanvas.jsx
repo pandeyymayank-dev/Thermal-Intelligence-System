@@ -1,11 +1,6 @@
-import React, { useEffect, useRef, useState, useCallback } from 'react';
+import React, { useEffect, useRef, useCallback } from 'react';
 import L from 'leaflet';
 import 'leaflet/dist/leaflet.css';
-import {
-  fetchFacilities,
-  fetchThermalHotspots,
-  classifyThermalHotspots,
-} from '../services/api';
 import SearchBar from './SearchBar';
 import { formatCoordinates } from '../utils/coordinateParser';
 
@@ -153,12 +148,8 @@ export default function MapCanvas({
   const hotspotsLayerRef = useRef(null);
   const searchMarkerRef = useRef(null);
 
-  // Internal fallback state (used if MapCanvas is rendered standalone without props)
-  const [internalFacilities, setInternalFacilities] = useState(null);
-  const [internalHotspots, setInternalHotspots] = useState(null);
-
-  const activeFacilities = propFacilitiesData !== null ? propFacilitiesData : internalFacilities;
-  const activeHotspots = propHotspotsData !== null ? propHotspotsData : internalHotspots;
+  const activeFacilities = propFacilitiesData;
+  const activeHotspots = propHotspotsData;
 
   /**
    * 1. Initialize Leaflet Map on Mount
@@ -192,26 +183,6 @@ export default function MapCanvas({
     }).addTo(map);
 
     mapInstanceRef.current = map;
-
-    // Standalone fallback: If no props were supplied, fetch initial datasets
-    if (propFacilitiesData === null && propHotspotsData === null) {
-      fetchFacilities()
-        .then((fac) => setInternalFacilities(fac))
-        .catch((err) => console.warn('Standalone facilities fetch fallback:', err));
-
-      classifyThermalHotspots({ format: 'geojson' })
-        .then((classified) => {
-          if (classified && classified.features) {
-            setInternalHotspots(classified);
-          } else {
-            return fetchThermalHotspots();
-          }
-        })
-        .then((raw) => {
-          if (raw) setInternalHotspots(raw);
-        })
-        .catch((err) => console.warn('Standalone hotspots fetch fallback:', err));
-    }
 
     return () => {
       if (mapInstanceRef.current) {
