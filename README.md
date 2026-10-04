@@ -1,101 +1,90 @@
-# NTRO Thermal Intelligence Platform (SIH PS 26162)
+# NTRO Thermal Intelligence GIS Platform
 
-Enterprise modular monorepo for the **NTRO Thermal Intelligence GIS Dashboard**, featuring Overpass NWR spatial boundary resolution, hybrid satellite mapping, permanent facility labels, dual-mode coordinate & location search, and quick preset navigation.
+> **Smart India Hackathon (SIH) — PS 26162**  
+> Operational Geospatial Artificial Intelligence for Defense Thermal Anomaly Detection, Classification & Strategic Asset Proximity Analytics.
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![React](https://img.shields.io/badge/React-18+-61DAFB?style=flat-square&logo=react&logoColor=black)](https://react.dev)
+[![LightGBM](https://img.shields.io/badge/LightGBM-4.0+-green?style=flat-square)](https://lightgbm.readthedocs.io)
+[![Leaflet](https://img.shields.io/badge/Leaflet-1.9+-199900?style=flat-square&logo=leaflet&logoColor=white)](https://leafletjs.com)
+[![Render](https://img.shields.io/badge/Deployment-Render_Blueprint-46E3B7?style=flat-square&logo=render&logoColor=white)](https://render.com)
 
 ---
 
-## 📁 Monorepo Structure
+## 🛰️ Mission Overview
+
+The **NTRO Thermal Intelligence GIS Platform** is a defense-grade thermal anomaly intelligence system that ingests near-real-time multispectral infrared satellite telemetry from **NASA FIRMS** (VIIRS 375m and MODIS C6.1) and performs automated classification and strategic asset proximity scoring using a high-throughput **LightGBM** classification engine.
+
+### Core Capabilities
+
+- **Automated Anomaly Classification**: Accurately classifies thermal hotspots into six operational categories:
+  - ⚡ **FLARE**: Refinery flare stacks & gas flaring.
+  - 🏭 **INDUSTRIAL_HEAT**: Steel plants, blast furnaces, thermal power stations, and smelters.
+  - 🌾 **STUBBLE**: Agricultural crop residue burning.
+  - 🧱 **BRICK_KILN**: Bull's Trench and Hoffman brick kilns.
+  - 🌲 **WILDFIRE**: Forest fires and wildland biomass burning.
+  - ❓ **OTHER**: Uncharacterized transient heat events.
+- **Strategic Asset Proximity Engine**: Real-time KD-Tree spatial correlation against a curated gazetteer of **134 strategic Indian facilities** (NTPC thermal stations, SAIL/Tata steel plants, IOCL/Reliance refineries, smelters, and chemical hubs).
+- **Tactical Defense Cartography**: Interactive dark-mode satellite GIS canvas with dynamic Fire Radiative Power (FRP) heat scales and 3-tier glowing severity markers (🔴 Red, 🟠 Orange, 🟡 Yellow).
+- **Operational AI Drawer**: Instant slide-out inspection showing Fire Radiative Power (MW), Brightness Temperature ($T_{i4}$), baseline comparisons, dynamic growth trends (`GROWING`, `PERSISTENT`, `NEW`), and top model feature contributions.
+
+---
+
+## 🏗️ Monorepo Architecture
 
 ```text
 SIH/
 ├── apps/
-│   ├── web-dashboard/              # React + Vite GIS Frontend
+│   ├── web-dashboard/              # React (Vite) Tactical GIS Web Application
 │   │   ├── src/
-│   │   │   ├── components/         # MapCanvas.jsx, SearchBar.jsx, PresetNav.jsx, GISMap.jsx
-│   │   │   ├── hooks/              # useFacilities.js
-│   │   │   ├── services/           # api.js client (http://localhost:8000/api/v1)
-│   │   │   ├── types/              # GeoJSON JSDoc definitions
-│   │   │   ├── App.jsx             # Shell & top banner
-│   │   │   ├── index.css           # Styling & tooltip definitions
-│   │   │   └── main.jsx
-│   │   ├── package.json
-│   │   └── vite.config.js
+│   │   │   ├── components/         # MapCanvas, Sidebar, Header, Drawer, Modals
+│   │   │   ├── data/               # High-availability seed telemetry cache
+│   │   │   ├── pages/              # Dedicated routes (/map, /methodology, /contact)
+│   │   │   ├── services/           # Resilient API client with cold-start retry
+│   │   │   └── App.jsx
+│   │   └── package.json
 │   │
-│   └── thermal-api/                # FastAPI Backend Service
+│   └── thermal-api/                # FastAPI High-Performance Backend Service
 │       ├── app/
-│       │   ├── api/v1/
-│       │   │   ├── endpoints/
-│       │   │   │   ├── spatial.py      # Overpass OSM & Strategic Facilities API
-│       │   │   │   ├── thermal.py      # Phase 2 NASA FIRMS placeholder
-│       │   │   │   └── inference.py    # Phase 2 AI Model Inference placeholder
-│       │   │   └── router.py           # v1 API aggregator
-│       │   │
-│       │   ├── core/                   # config.py (Storage paths, CORS, Overpass settings)
-│       │   ├── models/                 # AI Model files (.onnx / .pt)
-│       │   ├── schemas/                # spatial.py (GeoJSON Pydantic schemas)
-│       │   │
-│       │   ├── services/
-│       │   │   ├── osm_service.py         # Overpass NWR logic & MultiPolygon assembler
-│       │   │   ├── firms_service.py       # Phase 2 NASA FIRMS service placeholder
-│       │   │   ├── sentinel_service.py    # Phase 2 Sentinel SWIR service placeholder
-│       │   │   └── classifier_service.py  # Phase 2 AI Inference Engine placeholder
-│       │   │
-│       │   └── main.py                 # FastAPI application entry point
-│       │
+│       │   ├── api/v1/             # Endpoints (/spatial, /thermal, /inference)
+│       │   ├── core/               # Configuration, paths, and CORS middleware
+│       │   ├── services/           # KD-Tree proximity & NASA FIRMS ingestion
+│       │   └── main.py             # Uvicorn ASGI entrypoint
 │       └── requirements.txt
 │
-└── storage/                        # Root-level persistent cache directory
-    ├── facility_cache.json         # Cached strategic facilities & refineries
-    └── thermal_cache.json          # Phase 2 thermal detections cache
+├── docs/                           # Technical specifications and presentation guides
+├── storage/                        # All-India facility gazetteer and FIRMS telemetry cache
+├── thermal/                        # LightGBM model training pipeline and feature engine
+├── render.yaml                     # Zero-config Render Blueprint deployment specification
+└── README.md
 ```
 
 ---
 
-## 🚀 How to Run
+## 🚀 Quickstart Guide
 
-### 1. Backend (`apps/thermal-api`)
+### 1. Backend Service (`apps/thermal-api`)
 
-1. Open a terminal and navigate to `apps/thermal-api/`:
-   ```bash
-   cd apps/thermal-api
-   ```
-2. Install Python dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. Start the FastAPI server:
-   ```bash
-   uvicorn app.main:app --reload --port 8000
-   ```
-   - API Root: `http://localhost:8000`
-   - Interactive Swagger Docs: `http://localhost:8000/docs`
+```bash
+cd apps/thermal-api
+pip install -r requirements.txt
+uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+```
+Interactive Swagger API documentation will be accessible at `http://localhost:8000/docs`.
 
----
+### 2. Frontend Dashboard (`apps/web-dashboard`)
 
-### 2. Frontend (`apps/web-dashboard`)
-
-1. Open a second terminal and navigate to `apps/web-dashboard/`:
-   ```bash
-   cd apps/web-dashboard
-   ```
-2. Install Node dependencies (if not already installed):
-   ```bash
-   npm install
-   ```
-3. Start the Vite development server:
-   ```bash
-   npm run dev
-   ```
-   - Open browser: `http://localhost:5173`
+```bash
+cd apps/web-dashboard
+npm install
+npm run dev
+```
+Open `http://localhost:5173` in your browser.
 
 ---
 
-## 🎯 Key Features Verified
+## 🌐 Cloud Deployment (Render Blueprint)
 
-1. **Hybrid Satellite Base Layer**: Esri World Imagery + Esri World Transportation (Roads) + Esri World Boundaries & Places (Floating labels).
-2. **Overpass NWR Spatial Parser**: Captures full Multi-Polygon complexes (Mathura, Jamnagar, Panipat, Barauni, Dadri).
-3. **Permanent Layer Tooltips**: Badges directly visible on the map (`🏢 <facility_name>`).
-4. **Dual-Mode Search**:
-   - Coordinates (`27.3200, 77.7000` or `27.3200 77.7000`) $\rightarrow$ Smooth `flyTo` animation + animated search pin (`📍`).
-   - Location text autocomplete powered by OSM Nominatim API.
-5. **Quick Preset Navigation**: Floating bottom bar with one-click navigation to strategic refineries and thermal power plants.
+The repository includes a root [`render.yaml`](./render.yaml) blueprint enabling zero-config dual deployment:
+1. **`ntro-thermal-api`**: Python Web Service hosting the FastAPI backend and LightGBM model.
+2. **`ntro-thermal-dashboard`**: React Vite Static Site hosting the tactical GIS interface.
